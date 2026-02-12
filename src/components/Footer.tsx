@@ -56,7 +56,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Mail size={14} className="shrink-0 text-brocade-gold-soft" />
-                contact@bashu-digital.org
+                contact@digitalbashu.org.cn
               </li>
             </ul>
           </div>

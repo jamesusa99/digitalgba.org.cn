@@ -17,6 +17,7 @@ const notoSerif = Noto_Serif_SC({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://digitalbashu.org.cn"),
   title: "巴蜀文化数字研究院 | 巴蜀文化全景呈现，数字化成果全民共享",
   description:
     "数字科技唤醒巴蜀文脉，文化遗产照亮未来征程。集学术研究、数字展示、创新应用、产教融合及产业联盟于一体，致力于全景呈现巴蜀文化、推动数字化成果普惠共享。",
@@ -24,6 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "巴蜀文化数字研究院",
     description: "巴蜀文化全景呈现，数字化成果全民共享",
+    url: "https://digitalbashu.org.cn",
   },
 };
 

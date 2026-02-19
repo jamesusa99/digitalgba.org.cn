@@ -218,7 +218,7 @@ export default function ClassroomPage() {
       >
         <div className="mx-auto max-w-5xl">
           <p className="mb-8 text-center text-muted">
-            通过 AI 与数字技术活化传统技艺，已在成都市多所中小学及社区落地。
+            依托 AI 与数字技术推动传统文化创新活化，项目实现跨区域、多场景规模化落地，覆盖四川、北京、广东、新疆等地区，深入中小学、社区、研学基地、文旅景区、校外机构等场所，打造可复制、可推广的传统文化数字传承新模式。
           </p>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {binngoCourses.map((course) => (

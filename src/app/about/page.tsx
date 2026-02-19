@@ -31,7 +31,20 @@ export default function AboutPage() {
       <Section title="产教融合与产业联盟" subtitle="产学研用一体化生态">
         <div className="mx-auto max-w-3xl space-y-6 text-muted">
           <p>
-            作为产教融合的坚定推动者，研究院发起并依托「巴蜀文化创意（数字）产教联盟」，深化校企协同，构建起「产学研用」一体化生态，持续扩大巴蜀文化的社会影响力与辐射效能。
+            作为国家文化数字化战略与产教融合的坚定推动者，研究院发起并依托
+            <strong className="text-ink">「巴蜀文化创意（数字）产教联盟」</strong>
+            ，联合
+            <strong className="text-ink">新华文轩</strong>
+            、四川新传媒集团、成都传媒集团及四川萃雅教育等行业领军力量，深度深化校企协同机制。
+          </p>
+          <p>
+            通过构建
+            <strong className="text-ink">「政行校企」多主体协同的治理模式</strong>
+            ，研究院成功搭建起集学术研究、数字项目、实训教学与社会服务于一体的
+            <strong className="text-ink">「产学研用」全链路生态</strong>
+            。依托「云景长征」数字化交互项目、「缤果课堂」非遗数字课程以及
+            <strong className="text-ink">巴蜀文化创意街区</strong>
+            等标志性成果，研究院正持续将文化资源转化为具有全国竞争力的数字资产与新型文化业态，全方位扩大巴蜀文化的社会影响力与辐射效能，助力区域经济高质量增长。
           </p>
         </div>
       </Section>

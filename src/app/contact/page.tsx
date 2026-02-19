@@ -13,8 +13,24 @@ export default function ContactPage() {
     <>
       <PageHero
         title="联系我们"
-        subtitle="欢迎洽谈合作与咨询"
+        subtitle="诚邀校企合作、产教融合项目、学术交流及文化数字化创新伙伴"
       />
+      <Section title="合作与咨询" subtitle="我们欢迎以下方向的洽谈">
+        <div className="mx-auto max-w-3xl space-y-8">
+          <div className="space-y-3 rounded-xl border border-border bg-paper-warm p-6">
+            <p className="text-muted">
+              研究院致力于巴蜀文化全景呈现与数字化成果全民共享，诚挚欢迎各方在以下领域与我们开展合作：
+            </p>
+            <ul className="list-inside list-disc space-y-1.5 text-muted">
+              <li>校企合作与产教融合项目（市域产教联合体、AIGC 实训平台共建等）</li>
+              <li>巴蜀文化创意（数字）产教联盟加入与资源对接</li>
+              <li>文化数字化、数字藏品、沉浸式文旅等技术研发与项目合作</li>
+              <li>学术交流、联合课题及成果出版</li>
+              <li>红色文化、民族文化数字化保护与传播合作</li>
+            </ul>
+          </div>
+        </div>
+      </Section>
       <Section title="联系方式" subtitle="地址、电话与邮箱">
         <div className="mx-auto max-w-2xl space-y-6 rounded-2xl border border-border bg-snow p-8 shadow-sm">
           <div className="flex items-start gap-4">

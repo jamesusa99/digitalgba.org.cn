@@ -2,8 +2,8 @@
 
 import { motion } from "framer-motion";
 
-const VIDEO_SRC =
-  "https://static.bingotalk.cn/bingodev/video/2025032318115600.mp4";
+const BILIBILI_BVID = "BV1zU411f78r";
+const BILIBILI_EMBED = `https://player.bilibili.com/player.html?bvid=${BILIBILI_BVID}&high_quality=1`;
 
 export function VideoSection() {
   return (
@@ -19,7 +19,7 @@ export function VideoSection() {
             巴蜀风貌 · 一镜一山河
           </h2>
           <p className="mt-2 text-muted">
-            影像记录巴蜀文化，数字留存千年文脉
+            地图视角看巴蜀地区的前世今生，历史行政区域演变
           </p>
         </motion.div>
 
@@ -30,16 +30,13 @@ export function VideoSection() {
           className="mx-auto mt-12 max-w-4xl overflow-hidden rounded-2xl border border-border bg-ink shadow-lg"
         >
           <div className="relative aspect-video">
-            <video
-              className="h-full w-full object-cover"
-              src={VIDEO_SRC}
-              title="巴蜀风貌宣传片"
-              controls
-              playsInline
-              preload="metadata"
-            >
-              您的浏览器暂不支持视频播放。
-            </video>
+            <iframe
+              src={BILIBILI_EMBED}
+              title="地图视角看巴蜀地区的前世今生，巴蜀地区历史行政区域演变"
+              className="absolute inset-0 h-full w-full"
+              allowFullScreen
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            />
           </div>
         </motion.div>
       </div>

@@ -19,12 +19,12 @@ export function Header() {
   const navItems = [
     { href: "/", label: t("home") },
     { href: "/about", label: t("about") },
+    { href: "/culture-system", label: t("cultureSystem") },
     { href: "/research", label: t("research") },
-    { href: "/digital-collections", label: t("digitalCollections") },
-    { href: "/outcomes", label: t("outcomes") },
-    { href: "/industry-alliance", label: t("industryAlliance") },
+    { href: "/industry", label: t("industry") },
     { href: "/cooperation", label: t("cooperation") },
     { href: "/classroom", label: t("classroom") },
+    { href: "/news", label: t("news") },
     { href: "/contact", label: t("contact") },
   ];
 
@@ -121,7 +121,7 @@ export function Header() {
             </AnimatePresence>
           </div>
 
-          {/* Mobile menu toggle */}
+          {/* Mobile menu toggle — only shows on medium screens without bottom nav */}
           <button
             type="button"
             className="flex h-10 w-10 items-center justify-center rounded-lg text-ink lg:hidden"

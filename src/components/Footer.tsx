@@ -9,12 +9,12 @@ export async function Footer() {
 
   const footerLinks = [
     { href: "/about", label: tNav("about") },
+    { href: "/culture-system", label: tNav("cultureSystem") },
     { href: "/research", label: tNav("research") },
-    { href: "/digital-collections", label: tNav("digitalCollections") },
-    { href: "/outcomes", label: tNav("outcomes") },
-    { href: "/industry-alliance", label: tNav("industryAlliance") },
+    { href: "/industry", label: tNav("industry") },
     { href: "/cooperation", label: tNav("cooperation") },
     { href: "/classroom", label: tNav("classroom") },
+    { href: "/news", label: tNav("news") },
     { href: "/contact", label: tNav("contact") },
   ];
 
@@ -72,8 +72,19 @@ export async function Footer() {
             </p>
           </div>
         </div>
-        <div className="mt-10 border-t border-snow/20 pt-8 text-center text-xs text-snow/50">
-          © {new Date().getFullYear()} {tSite("name")} {tSite("copyright")}
+        <div className="mt-10 border-t border-snow/20 pt-6">
+          <div className="flex flex-wrap items-center justify-center gap-4 text-xs text-snow/40">
+            <Link href="/sitemap" className="transition hover:text-snow/70">{t("sitemap")}</Link>
+            <span>·</span>
+            <Link href="/privacy" className="transition hover:text-snow/70">{t("privacy")}</Link>
+            <span>·</span>
+            <Link href="/disclaimer" className="transition hover:text-snow/70">{t("disclaimer")}</Link>
+            <span>·</span>
+            <span className="text-snow/30">{t("followUs")}：{t("wechat")} / {t("weibo")} / {t("douyin")}</span>
+          </div>
+          <div className="mt-4 text-center text-xs text-snow/40">
+            © {new Date().getFullYear()} {tSite("name")} · {tSite("copyright")}
+          </div>
         </div>
       </div>
     </footer>

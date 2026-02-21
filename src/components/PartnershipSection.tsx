@@ -12,7 +12,9 @@ export function PartnershipSection() {
 
   const categories = [0, 1, 2].map((i) => ({
     title: t(`categories.${i}.title`),
-    items: [0, 1, 2].map((j) => t(`categories.${i}.items.${j}`)),
+    items: [0, 1, 2, 3].map((j) => {
+      try { return t(`categories.${i}.items.${j}`); } catch { return null; }
+    }).filter(Boolean) as string[],
     icon: CATEGORY_ICONS[i],
   }));
 
@@ -59,10 +61,10 @@ export function PartnershipSection() {
           className="mt-10 flex flex-wrap justify-center gap-4"
         >
           <Link
-            href="/industry-alliance"
+            href="/industry"
             className="rounded-full bg-bashu-bronze px-6 py-3 text-sm font-medium text-snow transition hover:bg-bashu-bronze-light"
           >
-            {t("learnAlliance")}
+            {t("learnMore")}
           </Link>
           <Link
             href="/cooperation"

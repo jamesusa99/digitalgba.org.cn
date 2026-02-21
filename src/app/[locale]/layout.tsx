@@ -1,8 +1,9 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Noto_Sans_SC, Noto_Serif_SC, Inter, Playfair_Display } from "next/font/google";
 import "../globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { MobileBottomNavWithMore } from "@/components/MobileBottomNav";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
@@ -51,9 +52,36 @@ export async function generateMetadata({
       title: t("name"),
       description: t("tagline"),
       url: "https://digitalgba.org.cn",
+      siteName: t("name"),
+      locale: locale === "zh-CN" ? "zh_CN" : locale === "zh-TW" ? "zh_TW" : "en_US",
+      type: "website",
     },
+    twitter: {
+      card: "summary_large_image",
+      title: t("name"),
+      description: t("tagline"),
+    },
+    manifest: "/manifest.json",
+    appleWebApp: {
+      capable: true,
+      statusBarStyle: "default",
+      title: t("name"),
+    },
+    formatDetection: { telephone: true, email: true, address: true },
   };
 }
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+  userScalable: true,
+  viewportFit: "cover",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#2d5a4a" },
+    { media: "(prefers-color-scheme: dark)", color: "#1e4d3d" },
+  ],
+};
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -86,8 +114,10 @@ export default async function LocaleLayout({
       >
         <NextIntlClientProvider messages={messages}>
           <Header />
-          <main className="min-h-screen pt-16">{children}</main>
+          {/* pb-16 accounts for mobile bottom nav height on small screens */}
+          <main className="min-h-screen pt-16 pb-16 lg:pb-0">{children}</main>
           <Footer />
+          <MobileBottomNavWithMore />
         </NextIntlClientProvider>
       </body>
     </html>

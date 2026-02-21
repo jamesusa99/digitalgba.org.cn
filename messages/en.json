@@ -1,241 +1,528 @@
 {
   "site": {
-    "name": "GBA Culture Digital Research Institute",
-    "title": "GBA Culture Digital Research Institute | Presenting GBA Culture, Sharing Digital Achievements",
-    "description": "Digital technology awakens the GBA's cultural heritage. Integrating academic research, digital display, innovative applications, industry-education integration, and industry alliances to present Greater Bay Area culture and promote universal access to digital achievements.",
-    "tagline": "Presenting GBA Culture in Full Panorama, Sharing Digital Achievements with All",
+    "name": "GBA Culture Digital Institute",
+    "title": "GBA Culture Digital Institute | Culture as Soul, Digital as Wings",
+    "description": "The Greater Bay Area Culture Digital Research Institute is dedicated to digitalizing, industrializing, and internationalizing GBA cultural resources — building an innovative hub for cultural heritage and digital empowerment.",
+    "tagline": "Culture as Soul · Digital as Wings · GBA Flourishes Together",
     "copyright": "All Rights Reserved"
   },
   "nav": {
     "home": "Home",
     "about": "About Us",
-    "research": "Research",
-    "digitalCollections": "Digital Panorama",
-    "outcomes": "Outcomes",
-    "industryAlliance": "Industry Alliance",
+    "cultureSystem": "Culture",
+    "research": "Digital Works",
+    "industry": "Industry",
     "cooperation": "Cooperation",
-    "classroom": "Culture Classroom",
-    "contact": "Contact Us",
-    "openMenu": "Open Menu",
-    "closeMenu": "Close Menu"
+    "classroom": "Talent",
+    "news": "News",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "footer": {
     "navigation": "Navigation",
     "contact": "Contact",
     "address": "Guangzhou, Guangdong Province",
-    "phone": "See Contact Us page",
+    "phone": "See Contact page",
     "values": "Core Values",
-    "valuesText": "Heritage · Innovation · Collaboration · Inclusiveness · Professionalism",
-    "englishTagline": "Digital Technology Awakens GBA's Cultural Veins"
+    "valuesText": "Heritage · Innovation · Collaboration · Inclusion · Professionalism",
+    "englishTagline": "Digital Technology Awakens GBA's Cultural Veins",
+    "sitemap": "Sitemap",
+    "privacy": "Privacy Policy",
+    "disclaimer": "Disclaimer",
+    "friendlyLinks": "Partner Links",
+    "followUs": "Follow Us",
+    "wechat": "WeChat Official Account",
+    "weibo": "Weibo",
+    "douyin": "Douyin (TikTok)"
   },
   "hero": {
     "englishName": "Greater Bay Area Culture Digital Research Institute",
-    "heading1": "GBA Culture in Full Panorama",
-    "heading2": "Digital Achievements for Everyone",
-    "subheading": "Digital technology awakens the GBA's cultural heritage, illuminating the path to the future",
+    "heading1": "Rooted in Lingnan Culture",
+    "heading2": "Digitally Empowering GBA's Heritage",
+    "subheading": "Gathering the finest of Guangdong-Hong Kong-Macao cultures, activating millennia of heritage through digital technology, and building a GBA cultural community",
     "cta": {
-      "digitalCollections": "Explore Digital Panorama",
-      "classroom": "Visit Culture Classroom",
-      "research": "Explore Research",
-      "industryAlliance": "Join Industry Alliance"
+      "cultureSystem": "Explore Culture",
+      "digitalOutcomes": "Digital Works",
+      "industry": "Industry",
+      "cooperation": "Cooperate"
     }
   },
   "newsTicker": {
-    "label": "Latest News",
+    "label": "Latest",
     "items": [
-      { "type": "News", "text": "Institute signs strategic cooperation agreement with GBA cultural tourism authorities" },
-      { "type": "Event", "text": "Industry Alliance Annual Summit to be held this quarter — stay tuned" },
-      { "type": "Achievement", "text": "Lingnan culture digital restoration project selected as provincial showcase case" },
-      { "type": "Cooperation", "text": "Joint GBA digital culture curriculum launched with multiple universities" },
-      { "type": "Alliance", "text": "New members join the Industry Alliance to advance GBA cultural digitization" }
+      { "type": "News", "text": "Institute signs cultural digitalization strategic cooperation agreement with GBA Cultural and Tourism Bureau" },
+      { "type": "Event", "text": "GBA Cultural Digitalization Forum scheduled this quarter — inviting all participants" },
+      { "type": "Achievement", "text": "Lingnan Cultural Digital Restoration Project selected as provincial cultural digitalization model case" },
+      { "type": "Cooperation", "text": "Joint GBA Cultural Digital Education curriculum established with multiple Guangdong-HK-Macao universities" },
+      { "type": "Alliance", "text": "New members join the industry alliance to drive GBA cultural digital transformation" }
     ]
   },
   "cultureSection": {
-    "heading": "GBA Culture · One Image, One Story",
-    "subheading": "Lingnan Civilization, Cantonese Opera, Hakka Culture, Maritime Silk Road — Stories told through images and data",
+    "heading": "Four Cultural Systems · Building GBA's Heritage",
+    "subheading": "Lingnan as root, HK-Macao as bridge, Red culture as soul, Ethnic traditions as colors",
     "items": [
       {
-        "title": "Lingnan Culture · Guangfu Charm",
-        "desc": "Cantonese Opera, Lion Dance, Dragon Boat, Herbal Tea… Guangfu culture is the deepest cultural root of the GBA, vibrant after a thousand years.",
+        "title": "Core Root · Lingnan Culture",
+        "desc": "Cantonese, Hakka, and Teochew cultures thrive together — Cantonese opera, lion dance, dragon boats, and arcade buildings carry millennia of vitality.",
         "alt": "Lingnan Culture"
       },
       {
-        "title": "Cantonese Opera · Pearl of the South",
-        "desc": "Cantonese Opera, hailed as the 'Pearl of the South', blends singing, recitation, acting, and acrobatics — a shared cultural bond for Cantonese communities worldwide.",
-        "alt": "Cantonese Opera"
+        "title": "HK & Macao · East Meets West",
+        "desc": "Hong Kong pop culture and Macao's Macanese heritage blend seamlessly — Ruins of St. Paul's, Victoria Harbour, and cha chaan teng define GBA's unique cultural character.",
+        "alt": "HK-Macao Culture"
       },
       {
-        "title": "Hakka Culture · Land of Walled Villages",
-        "desc": "The famous Hakka walled villages of Shenzhen, Huizhou, and Meizhou carry Hakka folk songs and clan culture — embodying the spirit of multicultural coexistence in the GBA.",
-        "alt": "Hakka Culture"
+        "title": "Red & Contemporary · Innovation",
+        "desc": "From the Boca Tigris to the cradle of the 1911 Revolution — the red gene forges GBA's spirit, while Shenzhen's tech innovation leads the cultural renaissance.",
+        "alt": "Red Culture"
       },
       {
-        "title": "Maritime Silk Road · HK-Macao Trade Heritage",
-        "desc": "The GBA was a key starting point of the ancient Maritime Silk Road. The open trading culture of Hong Kong and Macao blends with Lingnan traditions to create the GBA's unique character.",
-        "alt": "Maritime Silk Road"
+        "title": "Ethnic & Folk · Diversity",
+        "desc": "Zhuang, Yao, She, and Li ethnic intangible heritage, Spring Festival flower markets, Dragon Boat racing — diverse folk traditions paint a vibrant GBA cultural canvas.",
+        "alt": "Ethnic Traditions"
       }
     ]
   },
   "instituteMap": {
     "heading": "Institute Overview",
-    "subheading": "Four core pillars and industry alliance working together for full cultural presentation, universal access, and industry growth",
+    "subheading": "Four core pillars and industry alliance in synergy — achieving panoramic presentation, public access and industrial development",
     "nodes": {
       "academic": "Academic Research",
       "digital": "Digital Projects",
-      "education": "Industry-Education Integration",
+      "education": "Industry-Education",
       "service": "Social Services",
       "alliance": "Industry Alliance"
     }
   },
   "values": {
     "heading": "Core Values",
-    "subheading": "Heritage · Innovation · Collaboration · Inclusiveness · Professionalism",
+    "subheading": "Heritage · Innovation · Collaboration · Inclusion · Professionalism",
     "items": {
-      "inheritance": { "title": "Heritage", "desc": "In-depth excavation and living preservation of GBA's diverse cultures" },
-      "innovation": { "title": "Innovation", "desc": "Technology-empowered cultural creativity, driving industry innovation" },
-      "collaboration": { "title": "Collaboration", "desc": "Uniting Guangdong-Hong Kong-Macao forces to build digital ecosystems and promote open sharing" },
-      "inclusiveness": { "title": "Inclusiveness", "desc": "Promoting cultural exchange and sharing, open to diverse backgrounds and diverse industry partners" },
-      "professionalism": { "title": "Professionalism", "desc": "Rigorous scholarship, high-quality output, ensuring authoritative and credible content" }
+      "inheritance": { "title": "Heritage", "desc": "In-depth excavation and living preservation of GBA's diverse cultures, safeguarding millennia of cultural roots" },
+      "innovation": { "title": "Innovation", "desc": "Technology-empowered cultural creativity transformation, leading industrial innovation with digital technology" },
+      "collaboration": { "title": "Collaboration", "desc": "Gathering Guangdong-HK-Macao multi-party strengths, co-building digital ecosystem, promoting open sharing of results" },
+      "inclusiveness": { "title": "Inclusion", "desc": "Promoting cultural exchange and sharing, open to diverse backgrounds, welcoming diverse industry partners" },
+      "professionalism": { "title": "Professionalism", "desc": "Rigorous scholarship, high-quality output, ensuring authoritative and credible content, setting industry benchmarks" }
     }
   },
   "videoSection": {
-    "heading": "GBA Scenery · Landscapes Through the Lens",
-    "subheading": "Explore the historical cultural heritage and contemporary cityscape of the Guangdong-Hong Kong-Macao Greater Bay Area"
+    "heading": "GBA Landscape · Infinite Possibilities",
+    "subheading": "Explore the historical cultural heritage and contemporary urban scenery of the Greater Bay Area"
   },
   "partnership": {
-    "heading": "Cooperation & Practice",
-    "subheading": "Government-university cooperation, student internships, enterprise R&D, and industry alliance collaboration",
-    "learnAlliance": "Learn About Alliance",
-    "cooperation": "Cooperation & Exchange",
+    "heading": "Cooperation Ecosystem",
+    "subheading": "Industry-academia-research integration — co-building GBA's cultural digital ecosystem",
+    "learnMore": "Explore Industry",
+    "cooperation": "Apply to Cooperate",
     "categories": [
       {
-        "title": "Government-University Cooperation",
-        "items": ["Local government cultural tourism departments", "Cultural heritage institutions", "Intangible heritage protection units"]
+        "title": "Government & Institutions",
+        "items": ["Cultural & Tourism Bureaus", "Cultural Heritage Organizations", "Intangible Heritage Centers", "Cultural Research Institutes"]
       },
       {
-        "title": "Student Internships",
-        "items": ["Digital cultural creativity training", "Cultural big data practice", "VR/AR experience design"]
+        "title": "Universities & Research",
+        "items": ["Top GBA Universities", "Cultural Digitalization Research Teams", "AIGC Training Consortia"]
       },
       {
-        "title": "Enterprise Projects",
-        "items": ["Industry alliance member projects", "Joint R&D and incubation", "Smart cultural heritage solutions"]
+        "title": "Enterprises & Industry",
+        "items": ["Cultural Creative Tech Firms", "Digital Tourism Groups", "IP Licensing & Incubation Agencies"]
       }
     ]
   },
   "about": {
     "meta": {
-      "title": "About Us | GBA Culture Digital Research Institute",
-      "description": "The GBA Culture Digital Research Institute is dedicated to presenting GBA culture in full panorama and making digital achievements universally accessible."
+      "title": "About Us | GBA Culture Digital Institute",
+      "description": "The GBA Culture Digital Research Institute is dedicated to digitalizing, industrializing, and internationalizing GBA cultural resources."
     },
-    "hero": { "title": "About Us", "subtitle": "Digital technology awakens the GBA's cultural heritage, illuminating the path to the future" },
+    "hero": { "title": "About Us", "subtitle": "Rooted in GBA's cultural community — activating cultural heritage through digital technology" },
     "intro": {
       "title": "About the Institute",
-      "subtitle": "Heritage · Innovation · Collaboration · Inclusiveness · Professionalism",
-      "p1": "The GBA Culture Digital Research Institute was established in the context of the Guangdong-Hong Kong-Macao Greater Bay Area cultural development strategy, to implement the 'GBA Development Plan' and the 'National Cultural Digitization Strategy'. The Institute is built upon a national-level industry-education integration practice base, dedicated to excavating, reconstructing, and disseminating the profound cultural heritage of the GBA through cutting-edge digital technologies.",
-      "p2": "As an important part of China's outstanding traditional culture, GBA culture has nurtured the brilliant Lingnan civilization, the Maritime Silk Road trade culture, the Cantonese Opera intangible heritage, and the Hakka walled village cultural tradition. The Institute bears the academic mission of protecting GBA cultural heritage in the digital era, while also leveraging multi-party collaboration to lead the transformation of cultural resources into digital assets."
+      "subtitle": "Heritage · Innovation · Collaboration · Inclusion · Professionalism",
+      "p1": "The Greater Bay Area Culture Digital Research Institute was established under the GBA cultural development strategy to implement the Outline Development Plan for the GBA and the National Cultural Digitalization Strategy. The Institute integrates the four cultural systems of Lingnan culture, HK-Macao culture, red and contemporary culture, and ethnic and folk culture, dedicated to excavating, reconstructing, and disseminating GBA's rich cultural heritage through cutting-edge digital technology.",
+      "p2": "With 'Culture as Soul, Digital as Wings' as its core philosophy, the Institute not only carries the academic mission of preserving GBA's cultural heritage in the digital era, but also leverages the multi-stakeholder collaborative advantage of government-industry-school-enterprise cooperation, leading the transformation of cultural resources into digital assets and helping build the GBA cultural community."
+    },
+    "vision": {
+      "title": "Development Vision",
+      "items": [
+        { "icon": "Research", "title": "Cultural Digitalization Research Hub", "desc": "Gathering top academic talent from GBA to build the authoritative platform for GBA cultural digitalization research" },
+        { "icon": "Database", "title": "Resource Aggregation Platform", "desc": "Integrating the four cultural systems to build an open and shared GBA cultural digital resource library" },
+        { "icon": "Industry", "title": "Industry Empowerment Carrier", "desc": "Empowering digital upgrades in cultural creative, cultural tourism, and cultural heritage industries" },
+        { "icon": "Globe", "title": "International Communication Window", "desc": "Using digital means to tell GBA stories to the world and promote GBA culture's international reach" }
+      ]
+    },
+    "team": {
+      "title": "Core Team",
+      "subtitle": "Cultural Research Experts · Digital Technology Experts · Industry Advisors",
+      "p1": "The Institute brings together top cultural research experts in Lingnan, HK-Macao, and red culture fields; digital technology experts in big data, VR/AR, and blockchain; and industry advisors in cultural creative, cultural tourism, and digital economy sectors, forming a composite team integrating culture, technology, and industry."
     },
     "leadership": {
-      "title": "Leadership & Structure",
-      "subtitle": "Academic Research + Digital Projects + Integrated Publishing + Cross-sector Collaboration",
-      "p1": "The Institute draws on top universities and institutions across the GBA, building a four-wheel-drive development system: 'Academic Research + Digital Projects + Integrated Publishing + Cross-sector Collaboration'. Key initiatives include GBA intangible heritage digitization projects, AI-driven cultural content production, and major research publications on GBA cultural heritage digital protection."
+      "title": "Governance Structure",
+      "subtitle": "Academic Research + Digital Projects + Integrated Publishing + Cross-sector Cooperation",
+      "p1": "The Institute, relying on top GBA universities and institutions, has built a four-wheel-drive development system of 'Academic Research + Digital Projects + Integrated Publishing + Cross-sector Cooperation', advancing key research outcomes including GBA intangible heritage digitalization projects, GBA AI cultural creative content production."
     },
     "alliance": {
-      "title": "Industry-Education Integration & Industry Alliance",
-      "subtitle": "Integrated production-study-research-application ecosystem",
-      "allianceName": "\"GBA Cultural Creativity (Digital) Industry-Education Alliance\"",
-      "streetName": "GBA Cultural Creativity District",
-      "p1prefix": "As a committed driver of the national cultural digitization strategy and industry-education integration, the Institute initiated and relies on the",
-      "p1suffix": ", bringing together major cultural institutions, tech enterprises, and universities across the GBA to deepen industry-university collaboration.",
-      "governanceModel": "\"government-industry-university-enterprise\" multi-party collaborative governance model",
-      "ecosystem": "fully-integrated production-study-research-application ecosystem",
-      "p2prefix": "By establishing a",
-      "p2middle": ", the Institute has successfully built a comprehensive platform integrating academic research, digital projects, internship education, and social services — forming a",
-      "p2suffix": ". Through landmark achievements including GBA cultural digital interactive projects, intangible heritage digital courses, and the",
-      "p2end": ", the Institute continues to transform cultural resources into nationally competitive digital assets and new cultural formats, expanding the social influence of GBA culture."
+      "title": "Industry-Education Integration & Alliance",
+      "subtitle": "Industry-Academia-Research-Application Integrated Ecosystem",
+      "allianceName": "\"GBA Cultural Creative (Digital) Industry-Education Alliance\"",
+      "streetName": "GBA Cultural Creative District",
+      "p1prefix": "As a committed advocate of the national cultural digitalization strategy and industry-education integration, the Institute initiates and relies on the",
+      "p1suffix": ", joining major cultural institutions, tech enterprises, and universities across GBA to deepen school-enterprise collaboration.",
+      "governanceModel": "multi-stakeholder governance model of government-industry-school-enterprise",
+      "ecosystem": "industry-academia-research-application full-chain ecosystem",
+      "p2prefix": "By building a",
+      "p2middle": ", the Institute has successfully established an integrated",
+      "p2suffix": ". Leveraging GBA cultural digital interaction projects, intangible heritage digital courses, and the",
+      "p2end": ", the Institute continuously transforms cultural resources into digitally competitive assets and new cultural formats."
     }
+  },
+  "cultureSystemPage": {
+    "meta": {
+      "title": "Culture Systems | GBA Culture Digital Institute",
+      "description": "Explore the four cultural systems of the Greater Bay Area: Lingnan culture, HK-Macao culture, red and contemporary culture, and ethnic and folk culture."
+    },
+    "hero": { "title": "Four Cultural Systems", "subtitle": "Rooted in Lingnan, diverse cultures thrive — building the GBA cultural community together" },
+    "systems": [
+      {
+        "id": "lingnan",
+        "badge": "Core Root",
+        "title": "Lingnan Culture",
+        "subtitle": "The Common Foundation of GBA",
+        "desc": "Lingnan culture is GBA's deepest cultural root, with Cantonese, Hakka, and Teochew cultures coexisting and thriving. Cantonese opera, lion dance, dragon boats, herbal tea, arcade buildings — every cultural symbol carries the shared memory and spiritual identity of GBA's people.",
+        "subsystems": [
+          { "title": "Cantonese Culture", "items": ["Cantonese Opera · Pearl of the South", "Lion Dance · Warding Off Evil", "Arcade Buildings · Lingnan Style", "Herbal Tea · Medicinal Food Culture"] },
+          { "title": "Hakka Culture", "items": ["Walled Villages · Hakka Treasure", "Hakka Folk Songs · Mountain Spirit", "Hakka Cuisine · Hundred Flavors"] },
+          { "title": "Maritime Trade Culture", "items": ["Maritime Silk Road · Millennium Commerce", "Nanhai Shen Miao · Blessing Culture", "Cantonese Teahouse · Yum Cha Tradition"] }
+        ],
+        "digitalTag": "Digital Focus: 3D Arcade Building Models · Cantonese Opera Digital Preservation · Intangible Heritage Digital Database"
+      },
+      {
+        "id": "hkmo",
+        "badge": "HK & Macao",
+        "title": "Hong Kong & Macao Culture",
+        "subtitle": "The Unique Character of East Meets West",
+        "desc": "Due to their unique historical backgrounds, Hong Kong and Macao have nurtured a distinctive identity of deep East-West cultural fusion. From Hong Kong pop culture's profound influence across Asia to Macao's eclectic Macanese heritage, HK-Macao culture is the best embodiment of GBA's cultural diversity.",
+        "subsystems": [
+          { "title": "Hong Kong Culture", "items": ["Cantonese Pop · Asia Radiation", "Cha Chaan Teng · East-West Cuisine", "East-Meets-West Architecture · Historical Witness", "Kung Fu Films · Global Impact"] },
+          { "title": "Macao Culture", "items": ["Ruins of St. Paul's · Historic Landmark", "Macanese Culture · Multicultural Fusion", "Sino-Western Festivals · Tradition Coexistence", "Gaming & Tourism · World Renown"] }
+        ],
+        "digitalTag": "Digital Focus: Ruins of St. Paul's 3D Model · HK-Macao Digital Exhibition Hall · Pop Culture Digital Archive"
+      },
+      {
+        "id": "redculture",
+        "badge": "Red & Contemporary",
+        "title": "Red & Contemporary Culture",
+        "subtitle": "The Spiritual Foundation for Innovation",
+        "desc": "GBA is a cradle of modern Chinese history — the Boca Tigris, birthplace of the 1911 Revolution. The red gene forges GBA's spiritual foundation. Shenzhen's technological innovation leads the cultural creative renaissance, making 'digital culture' and 'tech innovation' the new symbols of the era.",
+        "subsystems": [
+          { "title": "Red Culture", "items": ["Boca Tigris · Historical Monument", "1911 Revolution · Birthplace", "Reform & Opening Up · Era Imprint"] },
+          { "title": "Innovation & Tech Culture", "items": ["Shenzhen Innovation · Digital Pioneer", "Digital Creative · Content Ecosystem", "AIGC · Cultural Engine"] },
+          { "title": "Modern Urban Culture", "items": ["International Fashion · GBA Style", "Creative Parks · Innovation Hubs", "Digital Content · Youth Power"] }
+        ],
+        "digitalTag": "Digital Focus: Red Culture Digital Exhibition · VR Historical Scene Restoration · Red Audio Books"
+      },
+      {
+        "id": "ethnic",
+        "badge": "Ethnic & Folk",
+        "title": "Ethnic & Folk Culture",
+        "subtitle": "A Vibrant Canvas of Diversity",
+        "desc": "GBA is home to multiple ethnic minorities including Zhuang, Yao, She, and Li peoples, whose rich cultures form the colorful foundation of GBA. Spring Festival flower markets, Dragon Boat racing, Qixi Festival — shared folk traditions unite the cultural identity of GBA's people.",
+        "subsystems": [
+          { "title": "Ethnic Minority Cultures", "items": ["Zhuang Culture · Bronze Drum Sounds", "Yao Culture · Panhu Legend", "She Culture · Phoenix Spirit", "Li Culture · Weaving Beauty"] },
+          { "title": "Shared Folk Traditions", "items": ["Spring Festival Flower Market · New Year Spirit", "Dragon Boat Racing · Festival Passion", "Qixi Festival · Traditional Romance", "Winter Solstice Reunion · GBA Customs"] }
+        ],
+        "digitalTag": "Digital Focus: Intangible Heritage Digital Exhibition · Folk Culture Digital Calendar · Folk Event Livestreaming"
+      }
+    ]
   },
   "research": {
     "meta": {
-      "title": "Research | GBA Culture Digital Research Institute",
-      "description": "Under the national cultural digitization strategy, the Institute focuses on cultural big data standardization, AI-powered cultural productivity, digital consumption scenarios, and four major research pillars."
+      "title": "Digital Works | GBA Culture Digital Institute",
+      "description": "GBA Culture Digital Institute's digital achievements: digital museums, cultural resource databases, digital tools, and research reports."
     },
-    "hero": { "title": "Research Directions", "subtitle": "National strategy-driven, four-pillar synergy" },
-    "coreTitle": "Core Research Directions at the National Strategy Level",
-    "coreSubtitle": "The national cultural digitization strategy aims to build a new system from resources to production, dissemination, and consumption",
-    "dir1": {
-      "title": "1. Cultural Big Data Systems & Standardization",
-      "subtitle": "The 'foundation' of the digitization strategy",
+    "hero": { "title": "Digital Works", "subtitle": "Cultural carriers + Digital technology + Application scenarios — bringing cultural resources to life" },
+    "museums": {
+      "title": "Digital Museums & Exhibition Halls",
+      "subtitle": "Supporting VR tours, online visits, and interactive experiences",
       "items": [
-        { "label": "Cultural data identification and linking: ", "text": "Research how to link fragmented GBA cultural resources (such as scattered intangible heritage skills and artifact data) through a unified identification system to break down data silos." },
-        { "label": "Cultural data rights and value assessment: ", "text": "Research on digital copyright protection, technical rights assessment, and the value generation logic for the process of transforming cultural resources into 'data assets'." },
-        { "label": "Industry standard formulation: ", "text": "Using the Institute's position in the industry alliance to lead or participate in setting standards for GBA digital cultural artworks and digitized courses." }
+        { "title": "Lingnan Culture Digital Museum", "desc": "Panoramic presentation of Cantonese, Hakka, and Teochew cultural highlights, with VR tours and online intangible heritage skill simulation.", "tag": "VR · Online Visit" },
+        { "title": "HK-Macao Culture Digital Exhibition Hall", "desc": "Immersive display of Hong Kong pop culture and Macao's East-West fusion, linking local cultural institutions.", "tag": "Immersive · Interactive" },
+        { "title": "Red Culture Digital Exhibition Hall", "desc": "VR restoration of the Boca Tigris, 1911 Revolution, and other historical scenes — a digital platform for red cultural heritage.", "tag": "VR Restoration · Education" }
+      ]
+    },
+    "database": {
+      "title": "Cultural Resource Digital Library",
+      "subtitle": "GBA cultural resource database — intangible heritage, folk traditions, architecture, literature, music",
+      "features": [
+        { "title": "Multi-dimensional Search", "desc": "Search by cultural system, region, and type" },
+        { "title": "Free Public Access", "desc": "Basic resources freely open to the public" },
+        { "title": "Premium Downloads", "desc": "HD resources and exclusive content on demand" },
+        { "title": "Continuous Updates", "desc": "Regular addition of new digital achievements" }
+      ]
+    },
+    "tools": {
+      "title": "Digital Tools & Products",
+      "subtitle": "Professional digital solutions for the cultural industry",
+      "items": [
+        { "title": "Cultural IP Digital Design Tool", "desc": "An integrated platform for IP design, generation, and copyright management based on the four cultural systems.", "cta": "Request Trial" },
+        { "title": "Intangible Heritage Digital Inheritance Platform", "desc": "Combining video tutorials, AR interaction, and skill archives to transcend geographic limits for heritage transmission.", "cta": "Learn More" },
+        { "title": "Folk Culture Livestreaming Tool", "desc": "A livestreaming operation and digital recording tool designed for dragon boats, flower markets, and other folk events.", "cta": "Learn More" }
+      ]
+    },
+    "reports": {
+      "title": "Research Reports",
+      "subtitle": "Partial free preview; full version with paid access",
+      "items": [
+        { "title": "GBA Cultural Digitalization Development Report", "year": "2024", "desc": "Comprehensive overview of GBA cultural digitalization status, trends, and policy directions.", "free": true },
+        { "title": "Cultural IP Development & Incubation Report", "year": "2024", "desc": "Focused on GBA cultural IP excavation, development, licensing, and commercialization pathways.", "free": false },
+        { "title": "Intangible Heritage Digital Preservation Practice Report", "year": "2023", "desc": "Systematic summary of typical cases and experiences in GBA intangible heritage digital preservation.", "free": true }
+      ],
+      "freeLabel": "Free Preview",
+      "paidLabel": "Paid Access",
+      "downloadCta": "Download Report"
+    },
+    "coreTitle": "Core Research Directions",
+    "coreSubtitle": "Driven by the National Cultural Digitalization Strategy — four research pillars in synergy",
+    "dir1": {
+      "title": "1. Cultural Big Data System & Standardization Research",
+      "subtitle": "The 'Foundation' of the Digital Strategy",
+      "items": [
+        { "label": "Cultural Data Identification & Correlation Technology: ", "text": "Linking fragmented GBA cultural resources through a unified identification system to break data silos." },
+        { "label": "Cultural Data Rights Confirmation & Value Assessment: ", "text": "Researching digital copyright protection, technical rights confirmation, and the logic of value generation for cultural data assets." },
+        { "label": "Industry Standard Development: ", "text": "Leading or participating in setting industry standards for GBA digital cultural artworks and digitalized courses." }
       ]
     },
     "dir2": {
-      "title": "2. \"AI+\" Cultural Productivity Research",
-      "subtitle": "Responding to the national \"AI-empowered new industrialization\" initiative",
+      "title": "2. 'AI+' Cultural Productivity Research",
+      "subtitle": "Responding to the national 'AI empowering new industrialization' initiative",
       "items": [
-        { "label": "Vertical domain large model applications: ", "text": "Developing multimodal large models specifically for GBA culture and museum content, supporting automated data labeling and creative content generation." },
-        { "label": "\"Living heritage\" in the digital context: ", "text": "Research on how to use digital technology to 'reconstruct context', transforming the virtual nature of technology into cultural 'presence', resolving the tension between technical tools and cultural values in intangible heritage preservation." },
-        { "label": "AIGC-assisted art design: ", "text": "Exploring deep AI integration in Cantonese embroidery pattern design, Cantonese Opera script assistance, and digital teacher guidance scenarios." }
+        { "label": "Vertical Domain Large Model Application: ", "text": "Developing multimodal large models specifically for GBA culture and cultural heritage, supporting automated data annotation and creative content generation." },
+        { "label": "'Living Inheritance' in Digital Context: ", "text": "Researching how to use digital technology to 'reconstruct context', resolving the contradiction between technical tools and cultural values in heritage transmission." },
+        { "label": "AIGC-assisted Artistic Design: ", "text": "Exploring deep integration of AI in Cantonese embroidery pattern design, Cantonese opera script assistance, and digital human teacher guidance scenarios." }
       ]
     },
     "dir3": {
       "title": "3. New Digital Cultural Consumption Scenarios & Experience Research",
-      "subtitle": "Focusing on the demand side, driving intelligent and immersive transformation of the cultural industry",
+      "subtitle": "Focusing on demand-side, driving cultural industry toward intelligent and immersive transformation",
       "items": [
-        { "label": "Immersive cultural tourism integration technology: ", "text": "Leveraging technical support from GBA partner institutions to develop full-chain technology engines for construction, fusion, interaction, presentation, and evaluation." },
-        { "label": "Digital-physical integrated consumption scenarios: ", "text": "Researching multi-dimensional fusion models of 'cultural tourism + esports + e-commerce + creative industries' to create new GBA cultural landmarks." }
+        { "label": "Immersive Cultural Tourism Integration Technology: ", "text": "Tackling the full-chain technical engine of 'construction-integration-interaction-presentation-evaluation'." },
+        { "label": "Digital-Physical Fusion Consumption Scenarios: ", "text": "Researching the multi-dimensional fusion of 'cultural tourism + esports + e-commerce + cultural creative' to create new GBA cultural creative landmarks." }
       ]
     },
-    "blocksTitle": "Four Expanded Research Pillars",
-    "blocksSubtitle": "Comprehensive research architecture",
-    "block1": {
-      "title": "Pillar 1: Cultural Resource Digitization & Asset Platform",
+    "blocksTitle": "Four Extended Research Pillars",
+    "blocksSubtitle": "Cultural Asset Creation · Industry-Education Integration · Lingnan Preservation · Cultural Inclusion",
+    "block1": { "title": "Cultural Resource Digitalization & Asset Platform", "items": [{ "label": "Data Collection & Processing: ", "text": "Building an integrated GBA cultural data system, utilizing cultural survey results for HD collection and cleaning." }, { "label": "Cultural Asset Key Laboratory: ", "text": "Focusing on cultural data annotation and digital artwork certification, transforming cultural resources into 'digital capital'." }] },
+    "block2": { "title": "Deep Industry-Education Integration & Talent Ecosystem", "items": [{ "label": "Regional Industry-Education Consortium: ", "text": "Leveraging multi-stakeholder synergy to apply for a national-level industry-education consortium." }, { "label": "Digital Teaching Reform: ", "text": "Co-building AIGC training platforms and developing digital textbook series to cultivate composite cultural industry talent." }] },
+    "block3": { "title": "Lingnan & Maritime Silk Road Culture Digital Preservation", "items": [{ "label": "Lingnan Cultural Digital Library: ", "text": "Systematically protecting the three major cultural systems of Cantonese, Hakka, and Teochew through digital means." }, { "label": "Maritime Silk Road Cultural Tourism Fusion: ", "text": "Researching digital presentation of GBA coastal historical culture to promote regional cultural exchange and tourism integration." }] },
+    "block4": { "title": "Cultural Inclusion & Social Service Scenarios", "items": [{ "label": "Silver Economy Digitalization: ", "text": "Developing 'Silver Learning' digital courses to promote digital transformation of elderly education." }, { "label": "Smart Cultural Heritage & Community Empowerment: ", "text": "Introducing digital results into communities and schools through online platforms to achieve universal sharing." }] }
+  },
+  "industry": {
+    "meta": {
+      "title": "Industry Empowerment | GBA Culture Digital Institute",
+      "description": "GBA Culture Digital Institute provides professional empowerment services for cultural creative, cultural tourism, and enterprise digital transformation, with open IP licensing cooperation."
+    },
+    "hero": { "title": "Industry Empowerment", "subtitle": "Culture + Digital + Industry — transforming GBA cultural resources into development advantages" },
+    "services": [
+      {
+        "id": "wenchuang",
+        "icon": "Palette",
+        "title": "Cultural Creative Industry",
+        "subtitle": "Cultural IP Excavation · Digital Design · IP Incubation · Brand Promotion",
+        "desc": "Based on the four cultural systems, we provide full-chain services for cultural creative enterprises from cultural IP excavation and digital design to brand promotion, deeply incubating IP derivative products for lion dance, Cantonese opera, Ruins of St. Paul's, and other cultural symbols.",
+        "cases": [
+          { "title": "Lion Dance IP Digitalization", "desc": "Lion dance IP series digital derivative product development covering emoji packs, digital collectibles, AR interactive scenarios" },
+          { "title": "Cantonese Opera Creative Promotion", "desc": "Digital re-creation and omni-channel promotion of Cantonese opera classic elements, reaching younger audiences" }
+        ],
+        "cta": "Apply for Creative Cooperation"
+      },
+      {
+        "id": "wenlv",
+        "icon": "Map",
+        "title": "Cultural Tourism Industry",
+        "subtitle": "Digital Tourism Solutions · Scenic Area VR · Folk Event Digital Operations",
+        "desc": "We provide digital upgrade services for cultural tourism bureaus and scenic areas across GBA, including scenic area VR panoramas, cultural scene restoration, and folk event digital operations, creating a complete 'Digital Cultural Tourism' solution.",
+        "cases": [
+          { "title": "Scenic Area VR Panorama", "desc": "Creating immersive VR panoramas for key GBA cultural scenic areas to achieve 'Cloud Tour GBA'" },
+          { "title": "Folk Event Livestreaming", "desc": "Dragon Boat Festival and Spring Festival Flower Market panoramic livestream operations, expanding influence" }
+        ],
+        "cta": "Apply for Tourism Cooperation"
+      },
+      {
+        "id": "zhuanxing",
+        "icon": "Cpu",
+        "title": "Enterprise Digital Transformation",
+        "subtitle": "Digital Consulting · Technical Support · Talent Training",
+        "desc": "We provide digital transformation consulting, technical support, and talent training for traditional cultural enterprises (Cantonese opera troupes, intangible heritage workshops, cultural dining, etc.), helping traditional culture achieve upgrades combined with digital technology.",
+        "cases": [
+          { "title": "Intangible Heritage Workshop Digitalization", "desc": "Helping heritage inheritors establish digital archives, online sales channels, and brand communication systems" },
+          { "title": "Cultural Dining Brand Upgrade", "desc": "Digital transformation and IP content operations for Cantonese teahouses and Teochew restaurants" }
+        ],
+        "cta": "Consult Transformation Plan"
+      },
+      {
+        "id": "ip",
+        "icon": "Copyright",
+        "title": "IP Licensing Services",
+        "subtitle": "Cultural IP Incubation · Licensing Cooperation · Multi-scenario Applications",
+        "desc": "We integrate cultural IPs incubated by the Institute (Lingnan cultural symbol IPs, HK-Macao featured IPs, etc.) to provide IP licensing cooperation covering cultural creative, cultural tourism, film, and digital products, with clear authorization processes and cooperation models.",
+        "cases": [
+          { "title": "Lingnan Culture IP Licensing", "desc": "Licensing cooperation for Cantonese lion dance, Cantonese opera female lead IPs in cultural products, games, and film industries" },
+          { "title": "HK-Macao Featured IP Development", "desc": "Digital development and commercial licensing of HK-Macao cultural landmark IPs like Ruins of St. Paul's and Victoria Harbour" }
+        ],
+        "cta": "Learn About IP Licensing"
+      }
+    ],
+    "allianceTitle": "Industry Alliance",
+    "allianceDesc": "The GBA Cultural Creative (Digital) Industry-Education Alliance, joining major GBA cultural institutions, tech enterprises, and universities to co-build the cultural digital industry ecosystem.",
+    "joinAlliance": "Join the Alliance"
+  },
+  "cooperation": {
+    "meta": {
+      "title": "Cooperation & Exchange | GBA Culture Digital Institute",
+      "description": "GBA Culture Digital Institute invites industry-academia-research cooperation and international cooperation to co-build the GBA cultural digital ecosystem."
+    },
+    "hero": { "title": "Cooperation & Exchange", "subtitle": "Industry-academia-research-application integration — co-building GBA's cultural digital ecosystem" },
+    "directions": {
+      "title": "Cooperation Directions",
+      "subtitle": "Four cooperation directions, fully open, fast docking",
       "items": [
-        { "label": "Data collection and processing: ", "text": "Building an integrated GBA cultural data system, utilizing cultural survey results for high-definition collection and processing." },
-        { "label": "Cultural asset key laboratory: ", "text": "Focusing on cultural data labeling and digital artwork certification, transforming cultural resources into 'digital capital'." }
+        { "icon": "GraduationCap", "title": "Academic Cooperation", "desc": "Collaborating with top GBA universities on cultural digitalization research and talent cultivation programs, co-building AIGC training platforms and cultural digitalization curriculum systems.", "tags": ["University Partnership", "Joint Research", "Talent Cultivation", "Curriculum Building"] },
+        { "icon": "Building2", "title": "Enterprise Cooperation", "desc": "Collaborating with cultural creative, cultural tourism, and digital technology enterprises on project development, sharing cultural resource databases, conducting IP incubation and joint operations.", "tags": ["Project Cooperation", "IP Incubation", "Joint Operations", "Technology Docking"] },
+        { "icon": "Landmark", "title": "Institutional Cooperation", "desc": "Collaborating with cultural tourism bureaus, cultural institutions, and intangible heritage centers on cultural heritage preservation and digitalization projects, co-building cultural resource sharing platforms.", "tags": ["Tourism Institutions", "Heritage Cooperation", "Intangible Heritage", "Resource Sharing"] },
+        { "icon": "Globe2", "title": "International Cooperation", "desc": "Collaborating with overseas Chinese cultural institutions and international cultural organizations to promote GBA culture's international reach and tell GBA stories.", "tags": ["Overseas Chinese", "International Organizations", "Cultural Communication", "Cross-border Cooperation"] }
       ]
     },
-    "block2": {
-      "title": "Pillar 2: Deep Industry-Education Integration & Talent Development Ecosystem",
+    "cases": {
+      "title": "Cooperation Cases",
+      "subtitle": "Existing cooperative projects co-building the GBA cultural digital ecosystem",
       "items": [
-        { "label": "Regional industry-education consortium: ", "text": "Leveraging multi-party collaboration to apply for national-level industry-education consortia, solving the disconnect between talent cultivation and industry needs." },
-        { "label": "Digital teaching reform: ", "text": "Co-building AIGC training platforms, developing digital textbook series, cultivating composite cultural industry talent with digital literacy." }
+        { "partner": "GBA University Consortium", "title": "Cultural Digitalization Talent Program", "desc": "Jointly establishing a cultural digitalization professional curriculum system with multiple GBA universities to cultivate composite cultural industry talent.", "tag": "Academia" },
+        { "partner": "GBA Cultural Tourism Bureau", "title": "Digital Cultural Tourism Demonstration Project", "desc": "Cooperating with multiple cultural tourism bureaus on scenic area digital upgrades, creating benchmark cases of immersive cultural tourism experiences.", "tag": "Government-Enterprise" },
+        { "partner": "Cultural Creative Tech Enterprises", "title": "Lingnan Culture IP Incubation Project", "desc": "Jointly incubating Lingnan cultural IPs like lion dance and Cantonese opera with cultural creative tech enterprises, achieving commercial transformation of cultural value.", "tag": "Enterprise" }
       ]
     },
-    "block3": {
-      "title": "Pillar 3: Lingnan Culture & Maritime Silk Road Digitization and Protection",
+    "events": {
+      "title": "Industry Events",
+      "subtitle": "GBA Cultural Digitalization Forums, Symposiums, and Creative Competitions",
       "items": [
-        { "label": "Lingnan digital culture library: ", "text": "Systematically protecting the three major cultural systems of Guangfu, Hakka, and Chaoshan through digitization, establishing a cultural gene database." },
-        { "label": "Maritime Silk Road cultural tourism integration: ", "text": "Researching digital presentations of GBA coastal historical culture to promote regional cultural exchange and tourism integration." }
-      ]
+        { "type": "Forum", "title": "2025 GBA Cultural Digitalization Development Forum", "date": "Second half of 2025", "desc": "Focusing on frontier trends in cultural digitalization, gathering government, industry, academic, and research parties.", "status": "upcoming" },
+        { "type": "Competition", "title": "GBA Cultural Digital Creative Competition", "date": "Open year-round", "desc": "A cultural digital creative competition for GBA youth, collecting excellent cultural IP designs and digital artworks.", "status": "open" },
+        { "type": "Symposium", "title": "Intangible Heritage Digital Preservation Symposium", "date": "Quarterly", "desc": "Focusing on GBA intangible heritage digital preservation technology and practices.", "status": "regular" }
+      ],
+      "upcomingLabel": "Upcoming",
+      "openLabel": "Open Registration",
+      "regularLabel": "Regular",
+      "registerCta": "Register Now",
+      "reviewCta": "View Review"
     },
-    "block4": {
-      "title": "Pillar 4: Cultural Access & Social Service Scenarios",
-      "subtitle": "",
-      "items": [
-        { "label": "Silver economy digitization: ", "text": "Developing 'Senior Learning' digital courses for an aging society, driving digitization of elderly education." },
-        { "label": "Smart cultural heritage & community empowerment: ", "text": "Bringing digital achievements into communities and schools through online platforms to realize universal sharing of outcomes." }
-      ]
+    "applyCta": {
+      "title": "Apply for Cooperation",
+      "subtitle": "Submit your cooperation application and we will contact you within 3 business days",
+      "namePlaceholder": "Your name / organization name",
+      "typePlaceholder": "Cooperation type (Academic / Enterprise / Institution / International)",
+      "messagePlaceholder": "Please briefly describe your cooperation intention and requirements",
+      "submitBtn": "Submit Application",
+      "contactNote": "Or contact us directly: contact@digitalgba.org.cn"
     }
+  },
+  "classroom": {
+    "meta": {
+      "title": "Talent Development | GBA Culture Digital Institute",
+      "description": "GBA Culture Digital Institute talent development system: professional training courses, internship and employment placement, expert think-tank resources."
+    },
+    "hero": { "title": "Talent Development", "subtitle": "Research-oriented + Application-oriented — cultivating composite GBA cultural digital talent" },
+    "training": {
+      "title": "Professional Training",
+      "subtitle": "Cultural digitalization professional training courses — online + offline dual-track",
+      "courses": [
+        { "title": "Intangible Heritage Digital Preservation", "level": "Advanced", "duration": "40 hrs", "mode": "Online + Offline", "desc": "Systematic learning of full-process skills for intangible heritage digital collection, organization, display, and dissemination." },
+        { "title": "Cultural IP Design & Incubation", "level": "Practical", "duration": "32 hrs", "mode": "Online", "desc": "Full-chain practical course from cultural element extraction to IP design, product development, and commercial licensing." },
+        { "title": "Digital Tourism Operations", "level": "Applied", "duration": "24 hrs", "mode": "Online", "desc": "Practical skill training in digital cultural tourism scene design, online promotion, and livestreaming operations." },
+        { "title": "Cultural Big Data Analysis", "level": "Professional", "duration": "48 hrs", "mode": "Online + Offline", "desc": "Mastering cultural data collection, cleaning, analysis, and visualization skills to serve cultural industry decision-making." },
+        { "title": "AIGC & Cultural Creative Applications", "level": "Frontier", "duration": "32 hrs", "mode": "Online", "desc": "Exploring deep application of AI in cultural content production, artistic design, and intangible heritage preservation scenarios." },
+        { "title": "VR/AR Immersive Cultural Experience Design", "level": "Professional", "duration": "40 hrs", "mode": "Mostly Offline", "desc": "Learning the design, development, and operation of immersive cultural experience scenarios, creating next-generation cultural experiences." }
+      ],
+      "levelLabel": "Level",
+      "durationLabel": "Hours",
+      "modeLabel": "Mode",
+      "enrollCta": "Enroll Now",
+      "targetAudience": "Suitable for: enterprise employees, university students, cultural practitioners, and cultural enthusiasts"
+    },
+    "internship": {
+      "title": "Internship & Employment",
+      "subtitle": "Co-building internship bases with partner enterprises — connecting training, practice, and employment",
+      "bases": [
+        { "type": "Cultural Creative", "name": "Cultural Creative Tech Enterprise Internship Base", "positions": ["IP Designer", "Digital Content Operations", "Cultural Data Analyst"] },
+        { "type": "Digital Tourism", "name": "Digital Tourism Group Internship Base", "positions": ["Digital Tourism Planner", "VR Experience Designer", "Cultural Tourism Livestream Operations"] },
+        { "type": "Cultural Heritage", "name": "GBA Cultural Heritage Institution Internship Base", "positions": ["Digital Preservation Assistant", "Exhibition Design", "Cultural Artifact Data Management"] }
+      ],
+      "entrepreneurTitle": "Entrepreneurship Support",
+      "entrepreneurDesc": "Providing entrepreneurship support for outstanding talent: Technical support · Resource connections · Mentor guidance · Alliance resource sharing",
+      "applyCta": "Apply for Internship"
+    },
+    "expertHub": {
+      "title": "Expert Think Tank",
+      "subtitle": "Integrating top experts in culture and digital fields — building GBA's cultural digitalization talent think tank",
+      "experts": [
+        { "field": "Lingnan Culture Research", "desc": "Authoritative experts in Lingnan culture, folklore, and cultural heritage protection from top GBA universities" },
+        { "field": "Digital Technology Experts", "desc": "Industry experts and scholars in big data, VR/AR, AIGC, and blockchain digital technology fields" },
+        { "field": "Cultural Industry Advisors", "desc": "Senior practitioners and advisors in cultural creative, cultural tourism, cultural heritage, and IP operations industries" }
+      ],
+      "consultCta": "Request Expert Consultation"
+    }
+  },
+  "news": {
+    "meta": {
+      "title": "News & Updates | GBA Culture Digital Institute",
+      "description": "Latest news from GBA Culture Digital Institute: institute updates, industry policies, cultural news, achievement highlights, and event announcements."
+    },
+    "hero": { "title": "News & Updates", "subtitle": "Focused on the latest GBA cultural digitalization news, industry policies, and event information" },
+    "categories": {
+      "all": "All",
+      "institute": "Institute News",
+      "policy": "Industry Policy",
+      "culture": "Culture",
+      "outcomes": "Achievements",
+      "events": "Events"
+    },
+    "subscribe": {
+      "title": "Subscribe",
+      "desc": "Follow our official WeChat account for the latest news",
+      "emailPlaceholder": "Enter your email address",
+      "subscribeCta": "Email Subscribe",
+      "wechatCta": "Follow WeChat"
+    },
+    "qa": {
+      "title": "Cultural Digitalization Q&A",
+      "subtitle": "Answering your questions about cultural digitalization"
+    },
+    "items": [
+      { "category": "institute", "date": "2025-02-18", "title": "Institute signs cultural digitalization strategic cooperation agreement with GBA Cultural & Tourism Bureau", "excerpt": "The Institute and GBA Cultural & Tourism Bureaus from multiple cities formally signed a strategic cooperation agreement on cultural digitalization, jointly promoting digital transformation of GBA cultural resources." },
+      { "category": "events", "date": "2025-02-10", "title": "2025 GBA Cultural Digitalization Development Forum to be held in second half of year", "excerpt": "The 2025 GBA Cultural Digitalization Development Forum hosted by the Institute is planned for the second half of 2025, inviting all government, industry, academic, and research parties." },
+      { "category": "outcomes", "date": "2025-01-28", "title": "Lingnan Cultural Digital Restoration Project selected as provincial digital model case", "excerpt": "The Lingnan Cultural Digital Restoration Project led by the Institute was formally selected as a Guangdong Province cultural digitalization model case." },
+      { "category": "policy", "date": "2025-01-15", "title": "National Cultural Digitalization Strategy 2025 annual work priorities released", "excerpt": "The Ministry of Culture and Tourism released the 2025 annual work priorities for the National Cultural Digitalization Strategy, focusing on cultural data asset transformation and digital tourism new scenarios." },
+      { "category": "institute", "date": "2025-01-08", "title": "Joint GBA Cultural Digital Education curriculum established with multiple universities", "excerpt": "The Institute signed cooperation agreements with the University of Hong Kong, University of Macau, Sun Yat-sen University, and others to co-build GBA cultural digitalization education courses." },
+      { "category": "culture", "date": "2024-12-20", "title": "Cantonese Lion Dance inscribed on UNESCO Intangible Cultural Heritage List", "excerpt": "Guangdong Cantonese lion dance, as an important representative of Lingnan culture, was formally inscribed on UNESCO's Representative List of Intangible Cultural Heritage." }
+    ],
+    "readMore": "Read More",
+    "loadMore": "Load More"
   },
   "contact": {
     "meta": {
-      "title": "Contact Us | GBA Culture Digital Research Institute",
-      "description": "Contact information for the GBA Culture Digital Research Institute. Welcome university-enterprise cooperation, industry-education projects, academic exchanges, and cultural digitization innovation partners."
+      "title": "Contact Us | GBA Culture Digital Institute",
+      "description": "Contact GBA Culture Digital Institute. Inviting school-enterprise cooperation, industry-education integration projects, academic exchange, and cultural digitalization innovation partners."
     },
-    "hero": { "title": "Contact Us", "subtitle": "Welcome university-enterprise cooperation, industry-education projects, academic exchanges, and cultural digitization innovation partners" },
+    "hero": { "title": "Contact Us", "subtitle": "Inviting school-enterprise cooperation, industry-education integration, academic exchange, and cultural digitalization innovation partners" },
     "consultation": {
       "title": "Cooperation & Consultation",
-      "subtitle": "We welcome discussions in the following areas",
-      "intro": "The Institute is dedicated to presenting GBA culture and making digital achievements universally accessible. We sincerely welcome cooperation in the following areas:",
+      "subtitle": "We welcome inquiries in the following areas",
+      "intro": "The Institute sincerely welcomes cooperation from all parties in the following areas:",
       "items": [
-        "University-enterprise cooperation and industry-education integration projects (GBA industry-education consortium, AIGC training platform co-development, etc.)",
-        "Joining the GBA Cultural Creativity (Digital) Industry-Education Alliance and resource integration",
-        "Cultural digitization, digital collections, immersive cultural tourism technology R&D and project cooperation",
-        "Academic exchanges, joint research projects, and publication of findings",
-        "Cooperation in digital protection and dissemination of Lingnan culture and Maritime Silk Road heritage"
+        "School-enterprise cooperation and industry-education integration projects (GBA education consortium, AIGC training platform co-construction, etc.)",
+        "Joining the GBA Cultural Creative (Digital) Industry-Education Alliance and resource connections",
+        "Cultural digitalization, digital collectibles, immersive cultural tourism and other technology R&D and project cooperation",
+        "Academic exchange, joint research topics, and results publication",
+        "Lingnan culture, HK-Macao culture, ethnic and folk culture digital preservation and communication cooperation"
       ]
     },
     "contactInfo": {
@@ -247,6 +534,16 @@
       "phoneLabel": "Phone",
       "phoneValue": "To be updated",
       "emailLabel": "Email"
+    },
+    "onlineConsult": {
+      "title": "Online Consultation",
+      "subtitle": "Real-time response during business hours (Mon–Fri 9:00–18:00)",
+      "cta": "Start Online Consultation"
+    },
+    "feedback": {
+      "title": "Feedback",
+      "desc": "Welcome to submit your suggestions for the Institute's website, services, and events to help us continuously improve.",
+      "cta": "Submit Feedback"
     }
   },
   "languageSwitcher": {

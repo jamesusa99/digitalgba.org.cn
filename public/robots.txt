@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Disallow admin/private areas (add when applicable)
+Disallow: /api/
+Disallow: /_next/
+
+# Sitemap
+Sitemap: https://digitalgba.org.cn/sitemap.xml
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1

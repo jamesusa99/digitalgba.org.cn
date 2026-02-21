@@ -9,10 +9,10 @@ export function HeroSection() {
   const t = useTranslations("hero");
 
   const ctaLinks = [
-    { href: "/digital-collections", label: t("cta.digitalCollections"), icon: Compass },
-    { href: "/classroom", label: t("cta.classroom"), icon: BookOpen },
-    { href: "/research", label: t("cta.research"), icon: FlaskConical },
-    { href: "/industry-alliance", label: t("cta.industryAlliance"), icon: Users },
+    { href: "/culture-system", label: t("cta.cultureSystem"), icon: Compass },
+    { href: "/research", label: t("cta.digitalOutcomes"), icon: FlaskConical },
+    { href: "/industry", label: t("cta.industry"), icon: Users },
+    { href: "/cooperation", label: t("cta.cooperation"), icon: BookOpen },
   ];
 
   return (

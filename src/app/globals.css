@@ -92,3 +92,126 @@ button:focus-visible {
 .animate-marquee {
   animation: marquee 30s linear infinite;
 }
+
+/* =========================================
+   MOBILE OPTIMIZATIONS
+   ========================================= */
+
+/* Prevent horizontal overflow globally */
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+/* Better tap target sizing for mobile */
+@media (max-width: 1023px) {
+  a, button {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Ensure readable font size on mobile — prevent auto-zoom on iOS */
+  input, textarea, select {
+    font-size: 16px !important;
+  }
+
+  /* Improve touch scrolling */
+  * {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+  }
+
+  a, button {
+    -webkit-tap-highlight-color: rgba(45, 90, 74, 0.1);
+  }
+}
+
+/* Safe area support for notch phones */
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* Aspect ratio helpers for mobile video/image */
+.aspect-mobile-video {
+  aspect-ratio: 16 / 9;
+}
+
+/* Prevent text overflow on narrow screens */
+.text-balance {
+  text-wrap: balance;
+}
+
+.truncate-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.truncate-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Smooth scroll with momentum on iOS */
+.scroll-smooth-ios {
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+
+/* VR/AR placeholder shimmer */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.vr-shimmer {
+  background: linear-gradient(
+    90deg,
+    rgba(45,90,74,0.05) 25%,
+    rgba(45,90,74,0.12) 50%,
+    rgba(45,90,74,0.05) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+/* One-tap action button */
+.tap-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 52px;
+  border-radius: 9999px;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  transition: all 0.2s;
+  user-select: none;
+  cursor: pointer;
+}
+
+/* Mobile image container — prevents layout shift */
+.img-container {
+  position: relative;
+  overflow: hidden;
+  background: var(--color-mist);
+}
+
+/* Floating CTA on mobile for key pages */
+.mobile-sticky-cta {
+  position: fixed;
+  bottom: calc(4rem + env(safe-area-inset-bottom));
+  right: 1rem;
+  z-index: 30;
+  border-radius: 9999px;
+  box-shadow: 0 4px 20px rgba(45, 90, 74, 0.35);
+}
+
+@media (min-width: 1024px) {
+  .mobile-sticky-cta {
+    display: none;
+  }
+}

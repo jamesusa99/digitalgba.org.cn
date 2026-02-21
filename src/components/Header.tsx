@@ -29,7 +29,7 @@ export function Header() {
           href="/"
           className="font-serif text-lg font-semibold text-bashu-bronze transition hover:text-bashu-bronze-light sm:text-xl"
         >
-          巴蜀文化数字研究院
+          大湾区文化数字研究院
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex">

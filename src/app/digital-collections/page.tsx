@@ -4,75 +4,75 @@ import Image from "next/image";
 import { Package, Globe, LayoutGrid, ExternalLink } from "lucide-react";
 
 export const metadata = {
-  title: "数字全景 | 巴蜀文化数字研究院",
+  title: "数字全景 | 大湾区文化数字研究院",
   description:
-    "汇聚三星堆、川剧、非遗等巴蜀文化数字藏品与虚拟展陈，提供线上沉浸式浏览与互动体验。3D/VR 展示入口，云景长征、深艺交等。",
+    "汇聚岭南文化、粤剧、非遗等大湾区文化数字藏品与虚拟展陈，提供线上沉浸式浏览与互动体验。3D/VR 展示入口，湾区文化数字体验。",
 };
 
 const DIGITAL_COLLECTIONS = [
   {
-    id: "sanxingdui",
-    title: "三星堆数字藏品",
-    desc: "青铜神树、纵目面具、黄金权杖等古蜀文物数字化建模与确权，推动文博资源向数字资产转化。",
+    id: "lingnan",
+    title: "岭南文化数字藏品",
+    desc: "广府骑楼、西关大屋、疍家文化等岭南建筑与生活文化数字化建模与展示，推动文博资源向数字资产转化。",
     image:
-      "https://img2.baidu.com/it/u=770521053,1233159494&fm=253&app=138&f=JPEG?w=800&h=1200",
-    category: "古蜀文明",
+      "https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?w=800&q=80",
+    category: "岭南文化",
   },
   {
-    id: "chuanju",
-    title: "川剧数字藏品",
-    desc: "变脸脸谱、戏服纹样、经典剧目片段等川剧元素数字化收藏与展示。",
+    id: "yueju",
+    title: "粤剧数字藏品",
+    desc: "粤剧脸谱、戏服纹样、经典折子戏片段等粤剧元素数字化收藏与展示，传承南国红豆文化。",
     image:
-      "https://gips1.baidu.com/it/u=2122084108,243822367&fm=3074&app=3074&f=JPEG?w=800&h=1109",
-    category: "川剧",
+      "https://images.unsplash.com/photo-1598902108854-10e335adac99?w=800&q=80",
+    category: "粤剧",
   },
   {
-    id: "shujin",
-    title: "蜀锦纹样数字藏品",
-    desc: "传统蜀锦纹样、织造技艺与《典籍里的首饰》等非遗手工系列数字化课程衍生产品。",
+    id: "guangxiu",
+    title: "粤绣纹样数字藏品",
+    desc: "传统粤绣纹样、织造技艺与非遗手工系列数字化课程衍生产品，展现湾区精湛工艺美学。",
     image:
       "https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?w=800&q=80",
     category: "非遗民艺",
   },
   {
-    id: "qiang",
-    title: "羌族服饰数字藏品",
-    desc: "《中国少数民族服饰文化与传统技艺·羌族》数字资源，民族服饰纹样与文化内涵的数字化呈现。",
+    id: "hakka",
+    title: "客家文化数字藏品",
+    desc: "客家围龙屋、客家山歌、传统服饰等文化资源的数字化呈现，展示湾区多元文化共生之道。",
     image:
-      "https://images.unsplash.com/photo-1558171813-4c088753af8f?w=800&q=80",
-    category: "民族文化",
+      "https://images.unsplash.com/photo-1600267165477-6d4cc741b379?w=800&q=80",
+    category: "客家文化",
   },
   {
-    id: "panda",
-    title: "大熊猫文创数字藏品",
-    desc: "大熊猫 IP 与巴蜀自然生态主题的数字艺术品，传递人与自然和谐共生的理念。",
+    id: "maritime",
+    title: "海丝文化数字藏品",
+    desc: "海上丝绸之路历史文物、广州十三行、南海神庙等海洋文化主题数字艺术品，传递湾区开放包容的文化精神。",
     image:
-      "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=800&q=80",
-    category: "自然生态",
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+    category: "海丝文化",
   },
 ];
 
 const VR_EXHIBITIONS = [
   {
-    id: "yunjing",
-    title: "「云景长征」沉浸式体验",
-    desc: "AR/VR/AI 融合技术打造的红色文化数字化交互平台，全链条技术引擎，沉浸式体验长征精神。",
+    id: "lingnan-vr",
+    title: "「岭南文化」沉浸式体验",
+    desc: "AR/VR/AI 融合技术打造的岭南文化数字化交互平台，全链条技术引擎，沉浸式体验岭南文化精髓。",
     type: "VR/AR",
     href: "#",
     status: "运营中",
   },
   {
-    id: "bashu-space",
-    title: "巴蜀文化体验空间",
-    desc: "线下数字化非遗体验展陈，与「5·18 国际博物馆日」等节点联动，支持虚拟导览与互动。",
+    id: "gba-space",
+    title: "大湾区文化体验空间",
+    desc: "线下数字化非遗体验展陈，支持虚拟导览与互动，联动「5·18 国际博物馆日」等文化节点。",
     type: "线下+线上",
     href: "#",
     status: "运营中",
   },
   {
-    id: "shenyijiao",
-    title: "文化数字艺术品交易平台（深艺交）",
-    desc: "全国文化大数据交易中心重点支持，巴蜀文化数字藏品发行、确权与交易。",
+    id: "digital-trade",
+    title: "文化数字艺术品交易平台",
+    desc: "大湾区文化数字藏品发行、确权与交易，全国文化大数据交易中心重点支持。",
     type: "交易平台",
     href: "#",
     status: "已上线",
@@ -80,7 +80,7 @@ const VR_EXHIBITIONS = [
   {
     id: "future",
     title: "更多 3D/VR 展陈",
-    desc: "三星堆 3D 文物漫游、川剧虚拟剧场、蜀道沉浸式体验等项目持续建设中，敬请期待。",
+    desc: "广州城市 3D 历史漫游、粤剧虚拟剧场、海丝沉浸式体验等项目持续建设中，敬请期待。",
     type: "建设中",
     href: "#",
     status: "筹备中",
@@ -94,16 +94,16 @@ export default function DigitalCollectionsPage() {
         title="数字全景"
         subtitle="数字藏品与沉浸式体验"
       />
-      <Section title="数字展示" subtitle="探索巴蜀文化数字化成果">
+      <Section title="数字展示" subtitle="探索大湾区文化数字化成果">
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-muted">
-            汇聚三星堆、川剧、非遗等巴蜀文化数字藏品与虚拟展陈，提供线上沉浸式浏览与互动体验。
+            汇聚岭南文化、粤剧、非遗等大湾区文化数字藏品与虚拟展陈，提供线上沉浸式浏览与互动体验。
           </p>
         </div>
       </Section>
 
       {/* 数字藏品列表 */}
-      <Section title="数字藏品" subtitle="巴蜀文化数字资产精选">
+      <Section title="数字藏品" subtitle="大湾区文化数字资产精选">
         <div className="mx-auto max-w-5xl">
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {DIGITAL_COLLECTIONS.map((item) => (

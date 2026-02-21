@@ -16,10 +16,10 @@ export function VideoSection() {
           className="text-center"
         >
           <h2 className="font-serif text-2xl font-semibold text-ink sm:text-3xl">
-            巴蜀风貌 · 一镜一山河
+            湾区风貌 · 一镜一山河
           </h2>
           <p className="mt-2 text-muted">
-            地图视角看巴蜀地区的前世今生，历史行政区域演变
+            领略粤港澳大湾区的历史文化脉络与当代城市风貌
           </p>
         </motion.div>
 
@@ -32,7 +32,7 @@ export function VideoSection() {
           <div className="relative aspect-video">
             <iframe
               src={BILIBILI_EMBED}
-              title="地图视角看巴蜀地区的前世今生，巴蜀地区历史行政区域演变"
+              title="粤港澳大湾区文化风貌"
               className="absolute inset-0 h-full w-full"
               allowFullScreen
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

@@ -19,13 +19,13 @@ export function Footer() {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div>
             <h3 className="font-serif text-lg font-semibold text-brocade-gold-soft">
-              巴蜀文化数字研究院
+              大湾区文化数字研究院
             </h3>
             <p className="mt-2 text-sm text-snow/80">
-              巴蜀文化全景呈现，数字化成果全民共享
+              湾区文化全景呈现，数字化成果全民共享
             </p>
             <p className="mt-1 text-xs text-snow/60">
-              Digital Technology Awakens Bashu&apos;s Cultural Veins
+              Digital Technology Awakens GBA&apos;s Cultural Veins
             </p>
           </div>
           <div>
@@ -48,7 +48,7 @@ export function Footer() {
             <ul className="mt-3 space-y-2 text-sm text-snow/70">
               <li className="flex items-center gap-2">
                 <MapPin size={14} className="shrink-0 text-brocade-gold-soft" />
-                四川省成都市
+                广东省广州市
               </li>
               <li className="flex items-center gap-2">
                 <Phone size={14} className="shrink-0 text-brocade-gold-soft" />
@@ -56,7 +56,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Mail size={14} className="shrink-0 text-brocade-gold-soft" />
-                contact@digitalbashu.org.cn
+                contact@digitalgba.org.cn
               </li>
             </ul>
           </div>
@@ -68,7 +68,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-10 border-t border-snow/20 pt-8 text-center text-xs text-snow/50">
-          © {new Date().getFullYear()} 巴蜀文化数字研究院 版权所有
+          © {new Date().getFullYear()} 大湾区文化数字研究院 版权所有
         </div>
       </div>
     </footer>

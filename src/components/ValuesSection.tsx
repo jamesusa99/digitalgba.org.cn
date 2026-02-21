@@ -15,7 +15,7 @@ const values = [
     title: "传承",
     en: "Inheritance",
     icon: BookMarked,
-    desc: "深入挖掘与活态传承巴蜀文化",
+    desc: "深入挖掘与活态传承大湾区多元文化",
   },
   {
     key: "innovation",
@@ -29,7 +29,7 @@ const values = [
     title: "协同",
     en: "Collaboration",
     icon: Handshake,
-    desc: "汇聚多方力量，共建数字生态，促进成果开放共享，构建紧密产业联盟",
+    desc: "汇聚粤港澳多方力量，共建数字生态，促进成果开放共享，构建紧密产业联盟",
   },
   {
     key: "inclusiveness",

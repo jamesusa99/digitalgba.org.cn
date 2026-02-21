@@ -2,9 +2,9 @@ import { PageHero } from "@/components/PageHero";
 import { Section } from "@/components/Section";
 
 export const metadata = {
-  title: "研究方向 | 巴蜀文化数字研究院",
+  title: "研究方向 | 大湾区文化数字研究院",
   description:
-    "国家文化数字化战略下，研究院聚焦文化大数据与标准化、人工智能+文化生产力、数字消费新场景，以及文化资源资产化、产教融合、红色民族文化保护、文化普惠四大板块。",
+    "国家文化数字化战略下，研究院聚焦文化大数据与标准化、人工智能+文化生产力、数字消费新场景，以及文化资源资产化、产教融合、湾区非遗保护、文化普惠四大板块。",
 };
 
 export default function ResearchPage() {
@@ -19,7 +19,7 @@ export default function ResearchPage() {
         subtitle="国家文化数字化战略旨在构建从资源到生产、传播、消费的全新体系"
       >
         <div className="mx-auto max-w-4xl space-y-12">
-          {/* 方向 1：文化大数据体系与标准化研究 */}
+          {/* 方向 1 */}
           <div className="rounded-2xl border border-border bg-snow p-6 shadow-sm sm:p-8">
             <h3 className="font-serif text-xl font-semibold text-ink">
               1. 文化大数据体系与标准化研究
@@ -30,7 +30,7 @@ export default function ResearchPage() {
             <ul className="mt-4 space-y-3 text-muted">
               <li>
                 <strong className="text-ink">文化数据标识与关联技术：</strong>
-                研究如何将碎片化的巴蜀文化资源（如散落在民间的非遗技艺、地市州的文物数据）通过统一标识体系进行关联，打通数据孤岛。
+                研究如何将碎片化的大湾区文化资源（如散落在各地的非遗技艺、文物数据）通过统一标识体系进行关联，打通数据孤岛。
               </li>
               <li>
                 <strong className="text-ink">文化数据确权与价值评估：</strong>
@@ -38,23 +38,23 @@ export default function ResearchPage() {
               </li>
               <li>
                 <strong className="text-ink">行业标准制订：</strong>
-                利用研究院在产教联盟中的地位，主导或参与制定巴蜀文化数字艺术品、数字化课程的行业标准。
+                利用研究院在产教联盟中的地位，主导或参与制定大湾区文化数字艺术品、数字化课程的行业标准。
               </li>
             </ul>
           </div>
 
-          {/* 方向 2：「人工智能+」文化生产力研究 */}
+          {/* 方向 2 */}
           <div className="rounded-2xl border border-border bg-snow p-6 shadow-sm sm:p-8">
             <h3 className="font-serif text-xl font-semibold text-ink">
               2. 「人工智能+」文化生产力研究
             </h3>
             <p className="mt-1 text-sm text-muted">
-              响应国家「人工智能赋能新型工业化」及四川省「智改数转」行动
+              响应国家「人工智能赋能新型工业化」行动
             </p>
             <ul className="mt-4 space-y-3 text-muted">
               <li>
                 <strong className="text-ink">垂直领域大模型应用：</strong>
-                研发专门针对巴蜀文化、文博垂类的多模态大模型，支持自动化数据标注与创意内容生成。
+                研发专门针对大湾区文化、文博垂类的多模态大模型，支持自动化数据标注与创意内容生成。
               </li>
               <li>
                 <strong className="text-ink">数字化语境下的「活态传承」：</strong>
@@ -62,12 +62,12 @@ export default function ResearchPage() {
               </li>
               <li>
                 <strong className="text-ink">AIGC 辅助艺术设计：</strong>
-                探索 AI 在蜀锦纹样设计、川剧剧本辅助创作及数字人教师引导等场景的深度集成。
+                探索 AI 在粤绣纹样设计、粤剧剧本辅助创作及数字人教师引导等场景的深度集成。
               </li>
             </ul>
           </div>
 
-          {/* 方向 3：数字文化消费新场景与体验研究 */}
+          {/* 方向 3 */}
           <div className="rounded-2xl border border-border bg-snow p-6 shadow-sm sm:p-8">
             <h3 className="font-serif text-xl font-semibold text-ink">
               3. 数字文化消费新场景与体验研究
@@ -78,11 +78,11 @@ export default function ResearchPage() {
             <ul className="mt-4 space-y-3 text-muted">
               <li>
                 <strong className="text-ink">沉浸式文旅集成技术：</strong>
-                依托北京大学等合作单位的技术支撑，攻关「构建-融合-交互-呈现-评价」全链条技术引擎。
+                依托粤港澳合作单位的技术支撑，攻关「构建-融合-交互-呈现-评价」全链条技术引擎。
               </li>
               <li>
                 <strong className="text-ink">数实融合消费场景：</strong>
-                研究「农文旅+电竞+电商+文创」的多维融合模式，打造如巴蜀文化创意街区等城市消费新地标。
+                研究「文旅+电竞+电商+文创」的多维融合模式，打造大湾区文化创意新地标。
               </li>
             </ul>
           </div>
@@ -102,7 +102,7 @@ export default function ResearchPage() {
             <ul className="mt-4 space-y-2 text-muted">
               <li>
                 <strong className="text-ink">数据采集与加工：</strong>
-                开展全省一体化文化数据体系建设，统筹利用文化普查成果进行高清采集与清洗。
+                开展湾区一体化文化数据体系建设，统筹利用文化普查成果进行高清采集与清洗。
               </li>
               <li>
                 <strong className="text-ink">文化资产重点实验室：</strong>
@@ -131,16 +131,16 @@ export default function ResearchPage() {
           {/* 板块 3 */}
           <div className="rounded-2xl border border-bashu-bronze/30 bg-paper-warm p-6 sm:p-8">
             <h3 className="font-serif text-lg font-semibold text-ink">
-              板块 3：红色文化与民族文化数字化保护
+              板块 3：岭南文化与海丝文化数字化保护
             </h3>
             <ul className="mt-4 space-y-2 text-muted">
               <li>
-                <strong className="text-ink">红色基因库建设：</strong>
-                如「云景长征」项目，通过数字化手段传承红色精神，为长征胜利九十周年献礼。
+                <strong className="text-ink">岭南文化数字库建设：</strong>
+                通过数字化手段系统保护广府、客家、潮汕三大文化体系，建立文化基因数据库。
               </li>
               <li>
-                <strong className="text-ink">藏羌彝走廊文旅融合：</strong>
-                研究跨民族地区的文化数字化呈现，促进民族交流与区域高质量增长。
+                <strong className="text-ink">海上丝路文旅融合：</strong>
+                研究大湾区沿海历史文化的数字化呈现，促进区域文化交流与旅游融合发展。
               </li>
             </ul>
           </div>
@@ -157,7 +157,7 @@ export default function ResearchPage() {
               </li>
               <li>
                 <strong className="text-ink">智慧文博与社区赋能：</strong>
-                将数字化成果通过「缤果课堂」等平台引入社区与中小学，实现成果全民共享。
+                将数字化成果通过在线平台引入社区与中小学，实现成果全民共享。
               </li>
             </ul>
           </div>

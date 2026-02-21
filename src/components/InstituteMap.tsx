@@ -10,7 +10,7 @@ const nodes = [
     href: "/research",
     cx: 50,
     cy: 35,
-    desc: "数字巴蜀文脉与知识图谱",
+    desc: "数字湾区文脉与知识图谱",
   },
   {
     id: "digital",

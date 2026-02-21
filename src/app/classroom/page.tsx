@@ -20,37 +20,37 @@ import {
 import { ClassroomPartnerWall } from "./ClassroomPartnerWall";
 
 export const metadata = {
-  title: "文化课堂 | 巴蜀文化数字研究院",
+  title: "文化课堂 | 大湾区文化数字研究院",
   description:
-    "缤果课堂非遗数字化精品课、AIGC实训、VR/AR体验设计。联合四川萃雅教育、电子科技大学，产教融合实训基地。2000名开放式实践名额。",
+    "湾区非遗数字化精品课、AIGC实训、VR/AR体验设计。联合粤港澳高校，产教融合实训基地。开放式实践名额。",
 };
 
 const binngoCourses = [
   {
-    id: "dianji",
-    title: "《典籍里的首饰》",
-    desc: "探索传统饰品背后的历史典籍，结合数字设计模拟制作过程。",
+    id: "guangxiu",
+    title: "《粤绣的故事》",
+    desc: "探索粤绣背后的历史典籍与技艺传承，结合数字设计模拟制作过程，感受岭南刺绣之美。",
     image:
       "https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?w=600&q=80",
   },
   {
-    id: "danqi",
-    title: "《丹漆成器》",
-    desc: "数字化呈现成都漆艺的传统工序，体验大漆文化的现代转型。",
+    id: "xingshi",
+    title: "《醒狮精神》",
+    desc: "数字化呈现广东醒狮的传统工序与精神内涵，体验岭南民俗文化的现代传承。",
     image:
       "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?w=600&q=80",
   },
   {
-    id: "muyi",
-    title: "《木意匠心》",
-    desc: "通过数字建模解析传统木作结构，领略巴蜀建筑与家具的精巧。",
+    id: "jianzhu",
+    title: "《岭南建筑》",
+    desc: "通过数字建模解析骑楼、围屋、西关大屋等岭南建筑结构，领略湾区建筑的精巧与智慧。",
     image:
       "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
   },
   {
-    id: "miaobi",
-    title: "《妙笔丹青》",
-    desc: "利用数字化绘画工具，传承巴蜀传统书画的笔墨神韵。",
+    id: "haisi",
+    title: "《海丝记忆》",
+    desc: "利用数字化技术还原海上丝绸之路的历史场景，传承大湾区开放包容的海洋文化基因。",
     image:
       "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?w=600&q=80",
   },
@@ -59,12 +59,12 @@ const binngoCourses = [
 const techCourses = [
   {
     title: "AIGC 文化创意实训",
-    desc: "联合电子科技大学研发，涵盖 AIGC 在巴蜀文创设计、数字角色开发中的应用。",
+    desc: "联合粤港澳高校研发，涵盖 AIGC 在湾区文创设计、数字角色开发中的应用。",
     icon: Cpu,
   },
   {
     title: "VR/AR 体验设计实训",
-    desc: "基于「云景长征」等重大项目，教授沉浸式场景构建与多模态交互技术。",
+    desc: "基于「湾区文脉」等重大项目，教授沉浸式场景构建与多模态交互技术。",
     icon: Globe,
   },
   {
@@ -76,42 +76,42 @@ const techCourses = [
 
 const baseInfo = [
   {
-    title: "四川新传媒集团与成都传媒集团协作",
-    desc: "研究院联合主流媒体集团，通过自媒体流量运营实训基地，开展农文旅 IP 短视频直播矩阵营销培训，助力学生高质量就业。",
+    title: "粤港澳媒体集团协作",
+    desc: "研究院联合粤港澳主流媒体集团，通过自媒体流量运营实训基地，开展文化 IP 短视频直播矩阵营销培训，助力学生高质量就业。",
   },
   {
-    title: "新华文轩",
-    desc: "携手四川出版龙头企业，在融合出版、文化内容数字化及教材研发等领域开展深度合作，推动巴蜀文化资源向优质出版物转化。",
+    title: "湾区出版机构",
+    desc: "携手湾区出版机构，在融合出版、文化内容数字化及教材研发等领域开展深度合作，推动湾区文化资源向优质出版物转化。",
   },
   {
-    title: "四川美术学院",
-    desc: "与川渝地区知名艺术院校合作，在非遗艺术传承、文创设计与数字艺术创作等方面共建实训课程，培养复合型文化创意人才。",
+    title: "粤港澳艺术院校",
+    desc: "与粤港澳知名艺术院校合作，在非遗艺术传承、文创设计与数字艺术创作等方面共建实训课程，培养复合型文化创意人才。",
   },
   {
     title: "开放型产教融合基地",
-    desc: "在成都市双流区建设 14000 平米的实训街区，包含「村游技」电竞赛事中心与新媒体流量运营基地。",
+    desc: "在大湾区建设开放型实训基地，包含文创展示中心与新媒体流量运营基地，服务粤港澳三地学生实训。",
   },
 ];
 
 const resources = [
   {
-    title: "缤果课堂在线平台",
+    title: "湾区文化在线平台",
     desc: "提供 4 门非遗手工系列数字化课程，支持 30 余课时在线自学。",
   },
   {
     title: "AIGC 实训平台",
-    desc: "由研究院与电子科技大学共同研发，为师生提供生成式人工智能创作环境。",
+    desc: "由研究院与粤港澳高校共同研发，为师生提供生成式人工智能创作环境。",
   },
   {
     title: "数字化研学手册",
-    desc: "提供《缤果数字研学解决方案》等文档下载，包含虚拟研学路线规划与案例。",
+    desc: "提供大湾区数字研学解决方案等文档下载，包含虚拟研学路线规划与案例。",
   },
 ];
 
 const enrollmentOptions = [
   {
     title: "学生实训申请",
-    desc: "面向合作院校学生开放，每年提供 2000 名开放式产教融合实践名额。",
+    desc: "面向合作院校学生开放，每年提供开放式产教融合实践名额。",
     icon: Users,
   },
   {
@@ -133,29 +133,19 @@ export default function ClassroomPage() {
       <Section title="文化课堂与实训资源" subtitle="Education & Training">
         <div className="mx-auto max-w-4xl space-y-6">
           <p className="text-center text-muted">
-            <strong className="text-ink">巴蜀文化数字研究院</strong>
+            <strong className="text-ink">大湾区文化数字研究院</strong>
             充分依托
             <strong className="text-ink">「产教融合」</strong>
             的机制优势，联合
-            <strong className="text-ink">新华文轩</strong>
+            <strong className="text-ink">中山大学</strong>
             、
-            <strong className="text-ink">四川新传媒集团</strong>
+            <strong className="text-ink">香港大学</strong>
             、
-            <strong className="text-ink">成都传媒集团</strong>
-            以及
-            <strong className="text-ink">四川萃雅教育（缤果课堂）</strong>
-            等核心战略合作伙伴，共同构建了涵盖从基础数字素养提升、非遗数字化传承到高端产业项目实训的全链条、多层次数字文化课程体系。
+            <strong className="text-ink">澳门大学</strong>
+            以及粤港澳主要科技与文化机构等核心战略合作伙伴，共同构建了涵盖从基础数字素养提升、非遗数字化传承到高端产业项目实训的全链条、多层次数字文化课程体系。
           </p>
           <p className="text-center text-muted">
-            该体系重点依托
-            <strong className="text-ink">新华文轩</strong>
-            在文化出版与教育服务领域的深厚积淀，结合
-            <strong className="text-ink">四川新传媒集团</strong>
-            与
-            <strong className="text-ink">成都传媒集团</strong>
-            的传播矩阵与新媒体流量运营能力，并引入
-            <strong className="text-ink">四川萃雅教育</strong>
-            成熟的 AI 数字研学课程模型，旨在打造全国领先的数字文化人才培养高地，推动巴蜀文化数字化成果的社会化应用与全民共享。
+            该体系重点整合湾区顶尖高校的学术资源，结合粤港澳传媒集团的传播矩阵与新媒体流量运营能力，旨在打造全国领先的数字文化人才培养高地，推动大湾区文化数字化成果的社会化应用与全民共享。
           </p>
         </div>
       </Section>
@@ -169,26 +159,26 @@ export default function ClassroomPage() {
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {[
               {
-                type: "文化教育出版",
-                org: "新华文轩",
-                fields: "数字化出版、教育资源分发与教材研发",
+                type: "学术与科研",
+                org: "中山大学 / 香港大学",
+                fields: "岭南文化研究、数字人文、海丝文化",
                 icon: BookMarked,
               },
               {
                 type: "传媒与传播",
-                org: "四川新传媒集团 / 成都传媒集团",
+                org: "粤港澳传媒集团",
                 fields: "新媒体矩阵运营、IP 流量变现、实训就业",
                 icon: Radio,
               },
               {
                 type: "数字技术教育",
-                org: "四川萃雅教育（缤果课堂）",
-                fields: "AIGC 非遗课程、AI 数字研学、青少年数字素养",
+                org: "澳门大学 / 深圳大学",
+                fields: "AIGC 课程、AI 数字研学、青少年数字素养",
                 icon: GraduationCap,
               },
               {
                 type: "学术与技术支持",
-                org: "北京大学 / 电子科技大学",
+                org: "腾讯文化 / 华为云",
                 fields: "沉浸式交互技术、AIGC 实训平台底层架构",
                 icon: Microscope,
               },
@@ -211,14 +201,14 @@ export default function ClassroomPage() {
         </div>
       </Section>
 
-      {/* 缤果课堂系列 */}
+      {/* 湾区文化课堂系列 */}
       <Section
-        title="缤果课堂系列"
-        subtitle="非遗数字化精品课 · 四川萃雅教育科技研发"
+        title="湾区文化课堂系列"
+        subtitle="非遗数字化精品课 · 活态传承岭南文化"
       >
         <div className="mx-auto max-w-5xl">
           <p className="mb-8 text-center text-muted">
-            依托 AI 与数字技术推动传统文化创新活化，项目实现跨区域、多场景规模化落地，覆盖四川、北京、广东、新疆等地区，深入中小学、社区、研学基地、文旅景区、校外机构等场所，打造可复制、可推广的传统文化数字传承新模式。
+            依托 AI 与数字技术推动传统文化创新活化，项目实现跨区域、多场景规模化落地，覆盖粤港澳三地，深入中小学、社区、研学基地、文旅景区等场所，打造可复制、可推广的传统文化数字传承新模式。
           </p>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {binngoCourses.map((course) => (
@@ -240,7 +230,7 @@ export default function ClassroomPage() {
                     </span>
                   </div>
                   <div className="absolute left-3 top-3 rounded-full bg-brocade-gold/90 px-2.5 py-0.5 text-xs font-medium text-ink">
-                    缤果课堂
+                    湾区课堂
                   </div>
                 </div>
                 <div className="p-4">
@@ -315,9 +305,6 @@ export default function ClassroomPage() {
               </div>
             ))}
           </div>
-          <p className="mt-6 text-center text-sm text-muted">
-            实训基地位于成都市双流区，地铁 5 号线骑龙站可达。
-          </p>
         </div>
       </Section>
 
@@ -375,7 +362,7 @@ export default function ClassroomPage() {
               >
                 联系我们
               </Link>
-              提交实训申请或扫码咨询缤果课堂。
+              提交实训申请或咨询湾区文化课堂。
             </p>
             <div className="mt-6 flex justify-center">
               <Link

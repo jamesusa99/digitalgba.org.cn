@@ -31,7 +31,7 @@ export function HeroSection() {
           transition={{ duration: 0.5 }}
           className="font-serif text-sm uppercase tracking-[0.3em] text-brocade-gold-soft/90 sm:text-base"
         >
-          Bashu Culture Digital Research Institute
+          Greater Bay Area Culture Digital Research Institute
         </motion.p>
         <motion.h1
           initial={{ opacity: 0, y: 24 }}
@@ -39,7 +39,7 @@ export function HeroSection() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="mt-4 font-serif text-3xl font-bold leading-tight text-snow sm:text-4xl md:text-5xl lg:text-6xl"
         >
-          巴蜀文化全景呈现
+          湾区文化全景呈现
           <br />
           <span className="text-brocade-gold-soft">数字化成果全民共享</span>
         </motion.h1>
@@ -49,7 +49,7 @@ export function HeroSection() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="mt-6 max-w-2xl text-lg text-snow/90 sm:text-xl"
         >
-          数字科技唤醒巴蜀文脉，文化遗产照亮未来征程
+          数字科技激活湾区文脉，文化遗产照亮未来征程
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}

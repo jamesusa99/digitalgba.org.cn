@@ -6,36 +6,36 @@ import { Landmark, Drama, Mountain, Leaf } from "lucide-react";
 
 const CULTURE_ITEMS = [
   {
-    title: "古蜀文明 · 三星堆",
-    desc: "神秘的古蜀国与三星堆遗址，青铜神树、纵目面具见证巴蜀千年文明。",
+    title: "岭南文化 · 广府风韵",
+    desc: "粤剧、醒狮、龙舟、凉茶……广府文化是大湾区最深厚的文化根脉，历经千年仍焕发活力。",
     image:
-      "https://img2.baidu.com/it/u=770521053,1233159494&fm=253&app=138&f=JPEG?w=800&h=1200",
+      "https://images.unsplash.com/photo-1547981609-4b6bfe67ca0b?w=800&q=80",
     icon: Landmark,
-    alt: "古蜀文明",
+    alt: "岭南文化",
   },
   {
-    title: "川剧变脸",
-    desc: "川剧绝活变脸、吐火，一转身一张脸，演绎巴蜀人的豪迈与幽默。",
+    title: "粤剧 · 南国红豆",
+    desc: "粤剧被誉为「南国红豆」，融汇唱念做打，是大湾区乃至全球粤籍华人共同的文化纽带。",
     image:
-      "https://gips1.baidu.com/it/u=2122084108,243822367&fm=3074&app=3074&f=JPEG?w=800&h=1109&type=normal&func=S",
+      "https://images.unsplash.com/photo-1598902108854-10e335adac99?w=800&q=80",
     icon: Drama,
-    alt: "川剧变脸",
+    alt: "粤剧",
   },
   {
-    title: "大熊猫之乡",
-    desc: "成都平原是大熊猫的故乡，憨态可掬的国宝承载着巴蜀与自然和谐共生的理念。",
+    title: "客家文化 · 围屋之乡",
+    desc: "深圳、惠州、梅州等地客家围屋闻名天下，客家山歌、围龙屋承载着湾区多元文化的共生之道。",
     image:
-      "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=800&q=80",
+      "https://images.unsplash.com/photo-1600267165477-6d4cc741b379?w=800&q=80",
     icon: Mountain,
-    alt: "大熊猫",
+    alt: "客家文化",
   },
   {
-    title: "川茶与蜀锦",
-    desc: "蒙顶茶、竹叶青，蜀锦华彩，茶马古道与丝路交织出巴蜀的商贸与雅趣。",
+    title: "海上丝路 · 港澳商脉",
+    desc: "大湾区是古代海上丝绸之路的重要起点，港澳开放商脉与岭南文化交融，孕育出独特的湾区文化气质。",
     image:
-      "https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?w=800&q=80",
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
     icon: Leaf,
-    alt: "川茶文化",
+    alt: "海上丝路",
   },
 ];
 
@@ -50,10 +50,10 @@ export function BashuCultureSection() {
           className="text-center"
         >
           <h2 className="font-serif text-2xl font-semibold text-ink sm:text-3xl">
-            巴蜀文化 · 一图一故事
+            湾区文化 · 一图一故事
           </h2>
           <p className="mt-2 text-muted">
-            古蜀文明、川剧、熊猫、川茶——以图载道，以数传情
+            岭南文明、粤剧、客家、海丝——以图载道，以数传情
           </p>
         </motion.div>
 

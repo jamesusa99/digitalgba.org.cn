@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "images.unsplash.com", pathname: "/**" },
       { protocol: "https", hostname: "img2.baidu.com", pathname: "/**" },
       { protocol: "https", hostname: "gips1.baidu.com", pathname: "/**" },
+      { protocol: "https", hostname: "upload.wikimedia.org", pathname: "/**" },
     ],
   },
 };

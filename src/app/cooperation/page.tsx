@@ -5,25 +5,25 @@ import Link from "next/link";
 import { Building2, Landmark, GraduationCap, Factory } from "lucide-react";
 
 export const metadata = {
-  title: "合作交流 | 巴蜀文化数字研究院",
+  title: "合作交流 | 大湾区文化数字研究院",
   description:
-    "地方政府、文博机构、高校与企业合作案例。合作领域：红色文化数字化、非遗资产化、AI+文创培训、产教融合。洽谈流程与联系方式。",
+    "地方政府、文博机构、高校与企业合作案例。合作领域：岭南文化数字化、非遗资产化、AI+文创培训、产教融合。洽谈流程与联系方式。",
 };
 
 const partners = [
   {
     icon: Building2,
     title: "地方政府与文旅部门",
-    subtitle: "校地协同推动乡村振兴",
-    objects: "巴中市委/市政府、温江区文化创意区、岳池县委组织部",
+    subtitle: "校地协同推动文化振兴",
+    objects: "广州市委/市政府、深圳市文化广电旅游体育局、香港文化体育及旅游局",
     cases: [
       {
-        name: "巴中市文旅调研座谈",
-        desc: "执行院长陈建文教授率领国家广电总局实验室专家团队赴巴中，为当地红色文化资源与虚拟现实视听技术的融合提供决策咨询。",
+        name: "广州岭南文化数字化调研",
+        desc: "研究院专家团队赴广州，为当地岭南文化资源与虚拟现实视听技术的融合提供决策咨询。",
       },
       {
-        name: "「城市文化美学塑造」培训",
-        desc: "为岳池县新任领导干部开展专题培训，从底层逻辑输出数字化城市管理与美学建设方案。",
+        name: "「大湾区城市文化美学塑造」培训",
+        desc: "为湾区地方领导干部开展专题培训，输出数字化城市管理与文化美学建设方案。",
       },
     ],
     outcomes: "政产学研调研报告、地方干部数字化素养提升工程",
@@ -32,15 +32,15 @@ const partners = [
     icon: Landmark,
     title: "文博机构",
     subtitle: "数字化赋能「活态传承」",
-    objects: "三星堆博物馆、四川省文化产业发展促进中心、各地方非遗中心",
+    objects: "广东省博物馆、香港文化博物馆、澳门文化局、各地非遗保护中心",
     cases: [
       {
-        name: "三星堆数字版权与艺术品开发",
-        desc: "通过数字化建模与确权，推动三星堆文博资源向数字资产转化。",
+        name: "岭南文化数字版权与艺术品开发",
+        desc: "通过数字化建模与确权，推动广东文博资源向数字资产转化。",
       },
       {
         name: "「5·18 国际博物馆日」联合策展",
-        desc: "依托巴蜀文化体验空间，与校内外文博单位共同举办数字化非遗体验展。",
+        desc: "依托大湾区文化体验空间，与校内外文博单位共同举办数字化非遗体验展。",
       },
     ],
     outcomes: "数字藏品、数字化展览方案、非遗数据标注体系",
@@ -49,15 +49,15 @@ const partners = [
     icon: GraduationCap,
     title: "高等院校",
     subtitle: "跨校联合攻关核心技术",
-    objects: "北京大学、四川大学、电子科技大学、重庆艺术文化职业学院",
+    objects: "中山大学、香港大学、澳门大学、深圳大学",
     cases: [
       {
         name: "AIGC 实训平台研发",
-        desc: "联合电子科技大学共同研发 AI 通识课程，搭建服务于师生的数字化艺术创作平台。",
+        desc: "联合粤港澳高校共同研发 AI 通识课程，搭建服务于师生的数字化艺术创作平台。",
       },
       {
-        name: "川渝产教联盟构建",
-        desc: "联合重庆艺职院筹建「巴蜀文化创意（数字）产教联盟」，实现成渝双城经济圈资源共享。",
+        name: "粤港澳产教联盟构建",
+        desc: "联合香港、澳门高校筹建「大湾区文化创意（数字）产教联盟」，实现粤港澳三地资源共享。",
       },
     ],
     outcomes: "联合科研课题、学分互认课程、数字化教材",
@@ -66,15 +66,15 @@ const partners = [
     icon: Factory,
     title: "企业与产业联盟",
     subtitle: "技术驱动新质生产力",
-    objects: "浪潮集团、广东缤果奇迹 AI、四川萃雅教育科技",
+    objects: "腾讯文化、华为云、网易互动娱乐、粤港澳科技企业",
     cases: [
       {
-        name: "「云景长征」技术集成",
-        desc: "与科技公司深度协作，攻关 AI+VR+AR 融合技术，构建沉浸式红色文化体验。",
+        name: "「湾区文脉」技术集成",
+        desc: "与科技公司深度协作，攻关 AI+VR+AR 融合技术，构建沉浸式湾区文化体验。",
       },
       {
         name: "数字化非遗进社区",
-        desc: "联合企业研发《典籍里的首饰》等 AI 数字课程，已在东安湖社区、金凤社区等多地落地运营。",
+        desc: "联合企业研发《粤绣的故事》等 AI 数字课程，在湾区多地社区落地运营。",
       },
     ],
     outcomes: "数字化课程包、软件著作权、商业化文旅 IP",
@@ -84,7 +84,7 @@ const partners = [
 const cooperationFields = [
   {
     title: "项目策划",
-    desc: "红色文化/非遗数字化交互项目申报与建设",
+    desc: "岭南文化/非遗数字化交互项目申报与建设",
   },
   {
     title: "资源转化",
@@ -104,7 +104,7 @@ const processSteps = [
   { step: 1, title: "意向提交", desc: "通过网站「合作留言」板块或邮件提交初步需求" },
   { step: 2, title: "专家初评", desc: "由研究院学术委员会评估项目的文化价值与技术可行性" },
   { step: 3, title: "方案论证", desc: "组织跨学科专家团（涵盖高校、文创、科技领域）进行现场调研与方案编写" },
-  { step: 4, title: "联盟签约", desc: "正式签署合作协议，并可申请加入「巴蜀文化创意（数字）产教联盟」" },
+  { step: 4, title: "联盟签约", desc: "正式签署合作协议，并可申请加入「大湾区文化创意（数字）产教联盟」" },
 ];
 
 export default function CooperationPage() {
@@ -112,7 +112,7 @@ export default function CooperationPage() {
     <>
       <PageHero
         title="合作交流"
-        subtitle="校地协同、文博共建、校企联合，共创巴蜀文化数字化新生态"
+        subtitle="校地协同、文博共建、校企联合，共创大湾区文化数字化新生态"
       />
 
       {/* 合作伙伴与典型案例 */}
@@ -231,8 +231,7 @@ export default function CooperationPage() {
                 <div>
                   <p className="text-sm font-medium text-ink">地址</p>
                   <p className="text-sm text-muted">
-                    成都市双流区怡心街道锦江路四段399号
-                    <span className="block">（四川文化产业职业学院）</span>
+                    广东省广州市
                   </p>
                 </div>
               </div>
@@ -240,7 +239,7 @@ export default function CooperationPage() {
                 <Phone className="mt-0.5 h-5 w-5 shrink-0 text-bashu-bronze" />
                 <div>
                   <p className="text-sm font-medium text-ink">电话</p>
-                  <p className="text-sm text-muted">028-85769208（学校总机）</p>
+                  <p className="text-sm text-muted">请见联系我们页面</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
@@ -248,7 +247,7 @@ export default function CooperationPage() {
                 <div>
                   <p className="text-sm font-medium text-ink">邮箱</p>
                   <p className="text-sm text-muted">
-                    contact@digitalbashu.org.cn
+                    contact@digitalgba.org.cn
                   </p>
                 </div>
               </div>

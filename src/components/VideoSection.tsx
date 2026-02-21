@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 
-const BILIBILI_BVID = "BV1zU411f78r";
+const BILIBILI_BVID = "BV19p4y1q7fo";
 const BILIBILI_EMBED = `https://player.bilibili.com/player.html?bvid=${BILIBILI_BVID}&high_quality=1`;
 
 export function VideoSection() {

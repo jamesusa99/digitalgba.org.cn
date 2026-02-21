@@ -1,11 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 const BILIBILI_BVID = "BV1zU411f78r";
 const BILIBILI_EMBED = `https://player.bilibili.com/player.html?bvid=${BILIBILI_BVID}&high_quality=1`;
 
 export function VideoSection() {
+  const t = useTranslations("videoSection");
+
   return (
     <section className="py-16 sm:py-20">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
@@ -16,11 +19,9 @@ export function VideoSection() {
           className="text-center"
         >
           <h2 className="font-serif text-2xl font-semibold text-ink sm:text-3xl">
-            湾区风貌 · 一镜一山河
+            {t("heading")}
           </h2>
-          <p className="mt-2 text-muted">
-            领略粤港澳大湾区的历史文化脉络与当代城市风貌
-          </p>
+          <p className="mt-2 text-muted">{t("subheading")}</p>
         </motion.div>
 
         <motion.div
@@ -32,7 +33,7 @@ export function VideoSection() {
           <div className="relative aspect-video">
             <iframe
               src={BILIBILI_EMBED}
-              title="粤港澳大湾区文化风貌"
+              title={t("heading")}
               className="absolute inset-0 h-full w-full"
               allowFullScreen
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

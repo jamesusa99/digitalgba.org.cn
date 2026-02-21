@@ -1,20 +1,22 @@
 "use client";
 
-import Link from "next/link";
 import { motion } from "framer-motion";
 import { Compass, BookOpen, FlaskConical, Users } from "lucide-react";
-
-const ctaLinks = [
-  { href: "/digital-collections", label: "探索数字全景", icon: Compass },
-  { href: "/classroom", label: "走进文化课堂", icon: BookOpen },
-  { href: "/research", label: "了解研究项目", icon: FlaskConical },
-  { href: "/industry-alliance", label: "加入产业联盟", icon: Users },
-];
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 
 export function HeroSection() {
+  const t = useTranslations("hero");
+
+  const ctaLinks = [
+    { href: "/digital-collections", label: t("cta.digitalCollections"), icon: Compass },
+    { href: "/classroom", label: t("cta.classroom"), icon: BookOpen },
+    { href: "/research", label: t("cta.research"), icon: FlaskConical },
+    { href: "/industry-alliance", label: t("cta.industryAlliance"), icon: Users },
+  ];
+
   return (
     <section className="relative min-h-[85vh] overflow-hidden bg-gradient-to-b from-bashu-teal/90 via-bashu-bronze/95 to-ink">
-      {/* Ambient background */}
       <div className="absolute inset-0 grain-overlay" />
       <div
         className="absolute inset-0 opacity-30"
@@ -31,7 +33,7 @@ export function HeroSection() {
           transition={{ duration: 0.5 }}
           className="font-serif text-sm uppercase tracking-[0.3em] text-brocade-gold-soft/90 sm:text-base"
         >
-          Greater Bay Area Culture Digital Research Institute
+          {t("englishName")}
         </motion.p>
         <motion.h1
           initial={{ opacity: 0, y: 24 }}
@@ -39,9 +41,9 @@ export function HeroSection() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="mt-4 font-serif text-3xl font-bold leading-tight text-snow sm:text-4xl md:text-5xl lg:text-6xl"
         >
-          湾区文化全景呈现
+          {t("heading1")}
           <br />
-          <span className="text-brocade-gold-soft">数字化成果全民共享</span>
+          <span className="text-brocade-gold-soft">{t("heading2")}</span>
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -49,7 +51,7 @@ export function HeroSection() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="mt-6 max-w-2xl text-lg text-snow/90 sm:text-xl"
         >
-          数字科技激活湾区文脉，文化遗产照亮未来征程
+          {t("subheading")}
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -57,7 +59,7 @@ export function HeroSection() {
           transition={{ duration: 0.5, delay: 0.35 }}
           className="mt-10 flex flex-wrap items-center justify-center gap-4"
         >
-          {ctaLinks.map(({ href, label, icon: Icon }, i) => (
+          {ctaLinks.map(({ href, label, icon: Icon }) => (
             <Link
               key={href}
               href={href}

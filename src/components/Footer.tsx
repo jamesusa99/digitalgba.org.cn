@@ -1,35 +1,40 @@
-import Link from "next/link";
 import { Mail, MapPin, Phone } from "lucide-react";
+import { getTranslations } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
 
-const footerLinks = [
-  { href: "/about", label: "关于我们" },
-  { href: "/research", label: "研究方向" },
-  { href: "/digital-collections", label: "数字全景" },
-  { href: "/outcomes", label: "成果发布" },
-  { href: "/industry-alliance", label: "产业联盟" },
-  { href: "/cooperation", label: "合作交流" },
-  { href: "/classroom", label: "文化课堂" },
-  { href: "/contact", label: "联系我们" },
-];
+export async function Footer() {
+  const t = await getTranslations("footer");
+  const tNav = await getTranslations("nav");
+  const tSite = await getTranslations("site");
 
-export function Footer() {
+  const footerLinks = [
+    { href: "/about", label: tNav("about") },
+    { href: "/research", label: tNav("research") },
+    { href: "/digital-collections", label: tNav("digitalCollections") },
+    { href: "/outcomes", label: tNav("outcomes") },
+    { href: "/industry-alliance", label: tNav("industryAlliance") },
+    { href: "/cooperation", label: tNav("cooperation") },
+    { href: "/classroom", label: tNav("classroom") },
+    { href: "/contact", label: tNav("contact") },
+  ];
+
   return (
     <footer className="border-t border-border bg-ink text-snow">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div>
             <h3 className="font-serif text-lg font-semibold text-brocade-gold-soft">
-              大湾区文化数字研究院
+              {tSite("name")}
             </h3>
             <p className="mt-2 text-sm text-snow/80">
-              湾区文化全景呈现，数字化成果全民共享
+              {tSite("tagline")}
             </p>
             <p className="mt-1 text-xs text-snow/60">
-              Digital Technology Awakens GBA&apos;s Cultural Veins
+              {t("englishTagline")}
             </p>
           </div>
           <div>
-            <h4 className="text-sm font-medium text-snow/90">栏目导航</h4>
+            <h4 className="text-sm font-medium text-snow/90">{t("navigation")}</h4>
             <ul className="mt-3 space-y-2">
               {footerLinks.map((item) => (
                 <li key={item.href}>
@@ -44,15 +49,15 @@ export function Footer() {
             </ul>
           </div>
           <div>
-            <h4 className="text-sm font-medium text-snow/90">联系方式</h4>
+            <h4 className="text-sm font-medium text-snow/90">{t("contact")}</h4>
             <ul className="mt-3 space-y-2 text-sm text-snow/70">
               <li className="flex items-center gap-2">
                 <MapPin size={14} className="shrink-0 text-brocade-gold-soft" />
-                广东省广州市
+                {t("address")}
               </li>
               <li className="flex items-center gap-2">
                 <Phone size={14} className="shrink-0 text-brocade-gold-soft" />
-                请见联系我们页面
+                {t("phone")}
               </li>
               <li className="flex items-center gap-2">
                 <Mail size={14} className="shrink-0 text-brocade-gold-soft" />
@@ -61,14 +66,14 @@ export function Footer() {
             </ul>
           </div>
           <div>
-            <h4 className="text-sm font-medium text-snow/90">核心价值观</h4>
+            <h4 className="text-sm font-medium text-snow/90">{t("values")}</h4>
             <p className="mt-2 text-xs text-snow/60">
-              传承 · 创新 · 协同 · 包容 · 专业
+              {t("valuesText")}
             </p>
           </div>
         </div>
         <div className="mt-10 border-t border-snow/20 pt-8 text-center text-xs text-snow/50">
-          © {new Date().getFullYear()} 大湾区文化数字研究院 版权所有
+          © {new Date().getFullYear()} {tSite("name")} {tSite("copyright")}
         </div>
       </div>
     </footer>

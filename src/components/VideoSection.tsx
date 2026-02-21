@@ -3,8 +3,9 @@
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 
-const BILIBILI_BVID = "BV19p4y1q7fo";
-const BILIBILI_EMBED = `https://player.bilibili.com/player.html?bvid=${BILIBILI_BVID}&high_quality=1`;
+const BILIBILI_BVID = "BV1vv4y1R7zD";
+// quality=64 → 720P HD；high_quality=1 允许高清；danmaku=0 关闭弹幕
+const BILIBILI_EMBED = `https://player.bilibili.com/player.html?bvid=${BILIBILI_BVID}&quality=64&high_quality=1&danmaku=0`;
 
 export function VideoSection() {
   const t = useTranslations("videoSection");

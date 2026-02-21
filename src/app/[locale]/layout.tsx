@@ -61,6 +61,13 @@ export async function generateMetadata({
       title: t("name"),
       description: t("tagline"),
     },
+    icons: {
+      icon: [
+        { url: "/logo.png", sizes: "any" },
+      ],
+      apple: "/logo.png",
+      shortcut: "/logo.png",
+    },
     manifest: "/manifest.json",
     appleWebApp: {
       capable: true,

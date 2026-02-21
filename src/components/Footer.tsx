@@ -1,6 +1,7 @@
 import { Mail, MapPin, Phone } from "lucide-react";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
+import Image from "next/image";
 
 export async function Footer() {
   const t = await getTranslations("footer");
@@ -23,10 +24,19 @@ export async function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div>
-            <h3 className="font-serif text-lg font-semibold text-brocade-gold-soft">
-              {tSite("name")}
-            </h3>
-            <p className="mt-2 text-sm text-snow/80">
+            <div className="flex items-center gap-3">
+              <Image
+                src="/logo.png"
+                alt="大湾区文化数字研究院"
+                width={44}
+                height={44}
+                className="h-11 w-11 rounded-full object-contain ring-1 ring-brocade-gold-soft/30"
+              />
+              <h3 className="font-serif text-base font-semibold text-brocade-gold-soft leading-tight">
+                {tSite("name")}
+              </h3>
+            </div>
+            <p className="mt-3 text-sm text-snow/80">
               {tSite("tagline")}
             </p>
             <p className="mt-1 text-xs text-snow/60">

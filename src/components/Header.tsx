@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Globe } from "lucide-react";
 import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import Image from "next/image";
 
 export function Header() {
   const t = useTranslations("nav");
@@ -49,9 +50,19 @@ export function Header() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link
           href="/"
-          className="shrink-0 font-serif text-sm font-semibold text-bashu-bronze transition hover:text-bashu-bronze-light sm:text-base lg:text-lg"
+          className="flex shrink-0 items-center gap-2 transition hover:opacity-85"
         >
-          {tSite("name")}
+          <Image
+            src="/logo.png"
+            alt="大湾区文化数字研究院"
+            width={36}
+            height={36}
+            className="h-8 w-8 rounded-full object-contain sm:h-9 sm:w-9"
+            priority
+          />
+          <span className="font-serif text-sm font-semibold text-bashu-bronze sm:text-base lg:text-lg">
+            {tSite("name")}
+          </span>
         </Link>
 
         <nav className="hidden items-center gap-0.5 lg:flex xl:gap-1">

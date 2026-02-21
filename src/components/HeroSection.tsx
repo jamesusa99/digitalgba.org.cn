@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { Compass, BookOpen, FlaskConical, Users } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import Image from "next/image";
 
 export function HeroSection() {
   const t = useTranslations("hero");
@@ -28,26 +27,6 @@ export function HeroSection() {
       />
 
       <div className="relative mx-auto flex min-h-[85vh] max-w-6xl flex-col items-center justify-center px-4 py-24 text-center sm:px-6 lg:px-8">
-        {/* Logo mark */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.6, ease: "easeOut" }}
-          className="mb-6"
-        >
-          <div className="relative mx-auto h-20 w-20 sm:h-24 sm:w-24">
-            <div className="absolute inset-0 rounded-full bg-brocade-gold/20 blur-xl" />
-            <Image
-              src="/logo.png"
-              alt="大湾区文化数字研究院"
-              width={96}
-              height={96}
-              className="relative h-full w-full rounded-full object-contain ring-2 ring-brocade-gold-soft/40 drop-shadow-lg"
-              priority
-            />
-          </div>
-        </motion.div>
-
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
